@@ -1,54 +1,45 @@
-# Software Carpentry at Bristol 2013
+# CDT Hackathon - Oxford 2015
 
 ![Software Carpentry logo](http://software-carpentry.org/img/software-carpentry-banner.png "Software Carpentry logo")
 
-Thursday 12-Friday 13 September 2013.
+Monday 5th-Tuesday 6th April 2015.
 
 ## Timetable
 
-Thursday 12th
+Monday 5th
 
-* 09:00 Arrival and [Welcome](Welcome.ppt) - Andrew / Chris
-* 09:30 [Using the shell to do more in less time (part 1)](shell/README.md) - Karthik
+* 09:30 Introduction and Overview - Fred
+* 10:00 [Version Control Part 1: Basic git](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/) - Mike
+* 10:30 Coffee!
+* 11:00 [Version Control Part 2: Remote repositories](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/) - Mike
+* 12:30 Lunch
+* 13:30 [Python and Good programming practice](Python/python_and_good_programming_practice.md) - Mike
+* 15:00 Coffee!
+* 15:30 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://docs.python.org/2/library/pdb.html),[PyCharm](https://www.jetbrains.com/pycharm/) - Mike
+* 16:00 [Documenting code](Python/3_documenting_code.md) ([Sphinx](sphinx-doc.org)) - Fred
+* 17:00 Close 
+
+Wednesday 6th
+
+* 09:30 [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
 * 10:30 Break
-* 10:45 [Python and Good programming practice (part 1)](Python/python_and_good_programming_practice.md) - Chris
-* 12:00 Lunch
-* 13:00 [Using version control to manage and share information](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/) - Karthik
+* 11:00 [NumPy](Python/5_numpy.md) - Dave
+* 12:30 Lunch
+* 13:30 [How (and how much) to test software](testing/README.md) ([slides](testing/Testing.ppt)) - Dave and Mike
 * 15:00 Break
-* 15:30 [Python and Good programming practice (part 2)](Python/python_and_good_programming_practice.md) - Chris
-* 16:30 [Documenting code](Python/3_documenting_code.md) - Chris
-* 17:30 Close 
-
-Friday 13th
-
-* 09:00 Recap
-* 09:30 [Object-orientation](Python/4_object_orientation.md)
-* 10:30 Break
-* 10:45 [How (and how much) to test software](testing/README.md) ([slides](testing/Testing.ppt)) - Karthik
-* 12:00 Lunch
-* 13:00 [Program Design](Python/5_numpy.md) - Chris
-* 14:45 Break
-* 15:15 [Using the shell to do more in less time (part 2)](shell/README.md) - Karthik
-* 16:15 [Pulling it all together](Conclusion.ppt) - Andrew / Karthik / Chris
-* 16:30 Close
-
-## Etherpad
-
-We'll be using an [Etherpad](https://etherpad.mozilla.org/swcbristol) to provide additional information on the day. This will be made public on the day.
+* 15:30 Software Design Principles - Dave and Fred
+* 16:00 Other Areas - Dave, Mike, Fred
+* 17:00 Close
 
 ## Hints and tips
 
 [Hints and tips](HintsAndTips.md) on common Bash and editor commands.
 
+[Using the shell to do more in less time (part 2)](shell/README.md)
 ## Before you arrive...
 
 We recommend that you bring your own laptop to work on (so 
-that you can easily continue to use the same tools after the 
-bootcamp) but we hope to have a handful of backup laptops 
-available. If you choose to bring your own laptop then, before 
-you arrive, you will need to ensure you have installed and tested
-some software. Please see our [set-up page](Setup.md) for a list of the 
-software required and instructions.
+that you can easily continue to use the same tools for the hackathon!).
 
 You should test your installation using our testing scripts described 
 [here](setup/README.md). To access these start a shell and run the 
