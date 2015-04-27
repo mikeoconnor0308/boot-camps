@@ -9,13 +9,13 @@ Monday 5th-Tuesday 6th April 2015.
 Monday 5th
 
 * 09:30 Introduction and Overview - Fred
-* 10:00 [Version Control Part 1: Basic git](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/) - Mike
+* 10:00 [Version Control Part 1: Basic git](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/)) - Mike
 * 10:30 Coffee!
-* 11:00 [Version Control Part 2: Remote repositories](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/) - Mike
+* 11:00 [Version Control Part 2: Remote repositories](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/)) - Mike
 * 12:30 Lunch
 * 13:30 [Python and Good programming practice](Python/python_and_good_programming_practice.md) - Mike
 * 15:00 Coffee!
-* 15:30 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://docs.python.org/2/library/pdb.html),[PyCharm](https://www.jetbrains.com/pycharm/) - Mike
+* 15:30 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://docs.python.org/2/library/pdb.html),[PyCharm](https://www.jetbrains.com/pycharm/)) - Mike
 * 16:00 [Documenting code](Python/3_documenting_code.md) ([Sphinx](sphinx-doc.org)) - Fred
 * 17:00 Close 
 
