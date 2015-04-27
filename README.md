@@ -9,7 +9,7 @@ Monday 5th-Tuesday 6th April 2015.
 Monday 5th
 
 * 09:30 Introduction and Overview - Fred
-* 10:00 [Version Control Part 1: Basic git](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/)) - Mike
+* 10:00 [Version Control Part 1: Basic git](version-control/README.md) ([slides](http://karthik.github.io/git_intro/#/slide-title)) - Mike
 * 10:30 Coffee!
 * 11:00 [Version Control Part 2: Remote repositories](version-control/README.md) ([slides](http://karthikram.github.io/git_intro/)) - Mike
 * 12:30 Lunch
@@ -35,14 +35,13 @@ Wednesday 6th
 
 [Hints and tips](HintsAndTips.md) on common Bash and editor commands.
 
-[Using the shell to do more in less time (part 2)](shell/README.md)
+Beginners guide to using the [shell](shell/README.md)
 ## Before you arrive...
 
 We recommend that you bring your own laptop to work on (so 
 that you can easily continue to use the same tools for the hackathon!).
 
-You should test your installation using our testing scripts described 
-[here](setup/README.md). To access these start a shell and run the 
+You should test your installation using our testing scripts. To access these start a shell and run the 
 commands:
 
     git clone --branch 2013-09-bristol --single-branch  https://github.com/swcarpentry/boot-camps
@@ -54,16 +53,9 @@ You also need to create a free individual account on
 [BitBucket](https://bitbucket.org/account/signup/). Make sure 
 you know your username and password when you arrive
 
-We recommend that you to work through this short tutorial on 
-[Beginning Python](http://chryswoods.com/beginning_python) before the
-bootcamp. This is designed for people completely new to Python (the main
-language used for the programming parts of the bootcamp) and some 
-familiarity with the basic syntax will be helpful.  
+We recommend that you to work through this excellent short tutorial on 
+[Beginning Python](http://chryswoods.com/beginning_python) to refresh yourself on Python. 
 
-## Organiser and instructors
+## Acknowledgements 
 
-The organiser of this boot camp is Andrew Walker. The instructors will be Chris Woods and Karthik Ram.
-
-## Contact
-
-For help or more information please contact [Andrew Walker and Mike Jackson](mailto:host-bristol@software-carpentry.org).
+This workshop is almost entirely based upon the great resource that is [Software Carpentry](https://software-carpentry.org/).
