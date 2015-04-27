@@ -51,7 +51,7 @@ You also need to create a free individual account on
 [BitBucket](https://bitbucket.org/account/signup/). Make sure 
 you know your username and password when you arrive
 
-We recommend that you to work through this excellent short tutorial on 
+We recommend that you to work through this short tutorial on 
 [Beginning Python](http://chryswoods.com/beginning_python) to refresh yourself on Python. 
 
 ## Acknowledgements 
