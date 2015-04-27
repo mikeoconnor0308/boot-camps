@@ -1,8 +1,6 @@
 # CDT Hackathon - Oxford 2015
 
-![Software Carpentry logo](http://software-carpentry.org/img/software-carpentry-banner.png "Software Carpentry logo")
-
-Monday 5th-Tuesday 6th April 2015.
+Monday 5th -Tuesday 6th April 2015.
 
 ## Timetable
 
