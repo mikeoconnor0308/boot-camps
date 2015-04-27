@@ -42,7 +42,7 @@ that you can easily continue to use the same tools for the hackathon!).
 You should test your installation using our testing scripts. To access these start a shell and run the 
 commands:
 
-    git clone --branch 2013-09-bristol --single-branch  https://github.com/swcarpentry/boot-camps
+    git clone --branch 2015-05-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
     cd boot-camps/setup
 
 before following [these instructions](setup/README.md).
