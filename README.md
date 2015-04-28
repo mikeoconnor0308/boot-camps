@@ -15,7 +15,7 @@ Monday 5th
 * 15:00 Coffee!
 * 15:30 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://docs.python.org/2/library/pdb.html),[PyCharm](https://www.jetbrains.com/pycharm/)) - Mike
 * 16:00 [Documenting code](Python/3_documenting_code.md) ([Sphinx](sphinx-doc.org)) - Fred
-* 17:00 Close 
+* 17:00 Conclusion 
 
 Wednesday 6th
 
@@ -27,7 +27,7 @@ Wednesday 6th
 * 15:00 Break
 * 15:30 Software Design Principles - Dave and Fred
 * 16:00 Other Areas - Dave, Mike, Fred
-* 17:00 Close
+* 17:00 Conclusion
 
 ## Hints and tips
 
