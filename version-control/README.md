@@ -2,7 +2,7 @@
 
 Git is officially available for download here → [git-scm.com](http://git-scm.com/)
 
-[![](version_control.png)](http://karthikram.github.io/git_intro/)
+[![](version_control.png)](http://karthik.github.io/git_intro/#/slide-title)
 
 Note: To follow along with the presentation, navigate to this folder (through Finder, Explorer, or your shell) and open the `index.html` file in the `git_intro` folder in your browser. Or simply click the thumbnail below.
 
