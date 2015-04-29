@@ -330,7 +330,10 @@ Note that string.join has added a space between each letter. Using help() we can
 
 ## Exercise
 
-You should have the files for the exercises as they were downloaded when you cloned the repository. They are located in the "Python" directory.
+If you haven't already, clone this repository to somewhere appropriate:
+
+$ git clone --branch 2015-05-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
+$ cd boot-camps/Python
 
 ### Exercise 1a
 
@@ -345,8 +348,6 @@ Here is a script, [1a/encode.py](1a/encode.py) which contains a dictionary for c
                        ' ':'/' }
 
     message = "SOS We have hit an iceberg and need help quickly"
-
-Download this script into the repository you made earlier add it as an initial version and commit. 
 
 Use what you have learned about lists and dictionaries to loop through each letter in the message, look-up the corresponding Morse code for that letter, and join the result together to create a string that contains the Morse code that will be transmitted to save the ship. Note that the dictionary contains only lowercase letters, so you will need to use "TAB" and help() to find a function to convert uppercase letters to lowercase.
 
