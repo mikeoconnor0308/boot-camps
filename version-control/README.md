@@ -4,47 +4,26 @@ Git is officially available for download here → [git-scm.com](http://git-scm.c
 
 [![](version_control.png)](http://karthik.github.io/git_intro/#/slide-title)
 
-Note: To follow along with the presentation, navigate to this folder (through Finder, Explorer, or your shell) and open the `index.html` file in the `git_intro` folder in your browser. Or simply click the thumbnail below.
-
-From terminal:
-
-    $ open index.html
-
 ## Initial setup
 
  If you are one a computer account that has not used git before
  then you should probably introduce yourself to git. This information
  will be associated with the changes that you make to files later:
 
-    $ git config --global user.name "Karthik Ram"
-    $ git config --global user.email "karthik.ram@berkeley.edu"
+    $ git config --global user.name "Count Dracula"
+    $ git config --global user.email "count@sesame-street.edu"
 
 Because working with git will involve making notes about your changes
 you should probably go ahead and register your text editor with git.
 The following lines tell git how to call your text editor in a way that  will pause git until you close your editing session. The commands differ a bit from editor to editor. 
 
-You can use `nano` as we did this morning. 
+You can use `nano`, `vim`, whatever you [prefer](http://www.sublimetext.com/)! 
 
-    $ git config --global core.editor "nano" 
-
-
-###  Other editors (optional for today)
-
-On Windows using Notepad++ in the standard location for a 64-bit machine, you would use:
-
-    $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
-
-(thanks to [StackOverflow](http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit/2486342#2486342)  for that useful tip)
-
-On Mac, with TextWrangler if you installed TextWrangler's command line tools
-then you should have an "edit" command. So you can use the git command:
-
-    $  git config --global core.editor "edit -w"
-
+    $ git config --global core.editor "vim" 
 
 All of these options are stored in a file called `.gitconfig`. I've included a sample [here](sample.gitconfig).
 
-**Add some aliases**
+**Add some aliases **
 
 ```
 git config --global alias.st status 
@@ -61,15 +40,13 @@ git config --global alias.ll `'log --pretty=format:"%C(yellow)%h%Cred%d\\ %Crese
 
 ## Working with a local repository
 
-Repository for directories and files.
+Let's create a local repository for this week's workshop:
 
-    $ mkdir papers
-    $ cd papers
+    $ mkdir hackathon
+    $ cd hackathon
     $ git init
 
-Working directory.
-
-Git configuration files in `.git` directory.
+Let's take a look at what files `git` has made:
 
     $ ls -A
 
@@ -85,24 +62,13 @@ Let's look at our Global configuration from the options we just added.
 	editor = nano
     $ git config -l
 
-Add some aliases (see `sample.gitconfig` for more)
-
-    co = checkout
-    ci = commit
-    st = status
-    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [  %cn]" --decorate
-    gr = log --graph --oneline --all
-    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [  %cn]" --decorate --numstat
-
----
-
 ### Working with files in the repository
 
-[Markdown](http://daringfireball.net/projects/markdown/syntax) file.
+Now let's add something to the repository! For simplicity, we're going to start with a [Markdown](http://daringfireball.net/projects/markdown/syntax) file, but it can be anything!
 
     $ nano rfc-template.md
 
-Next, type in some text that looks like so (doesn't have to be verbatim):
+Next, write some text. 
 
 ```markdown    
     # Title
@@ -123,19 +89,44 @@ Next, type in some text that looks like so (doesn't have to be verbatim):
     * ...
 ```
 
-Now let's look at our Git status.
+Now we'll look at our Git status to see the current state of our repository 
 
 
-    $ git status rfc-template.md
+    $ git status
 
-Untracked - working directory but unknown to Git.
+You should see something like this: 
+```
+On branch master
 
-Add to staging area / index / cache / "loading dock".
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	rfc-template.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+Git is telling us that there are some untracked files, which we need to tell it to track. 
 
     $ git add rfc-template.md
     $ git status rfc-template.md
 
-Changes to be committed - in staging area.
+Now we've added the file, and you should see:
+
+```
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   rfc-template.md
+```
+
+The file is now in the staging area, ready to be committed 
 
     $ git commit
 
@@ -143,7 +134,7 @@ Commit message - provide the "why" about a change.
 
 Top tip: Write useful commit messages, not "made a change".
 
-Commit shows number of files changed and the number of lines inserted or deleted.
+Commit shows number of files changed and the number of lines inserted or deleted. 
 
     $ git status rfc-template.md
 
@@ -152,21 +143,22 @@ Commit shows number of files changed and the number of lines inserted or deleted
     $ git log
 
 Commit identifier (AKA revision number) uniquely identifies the changes made in this commit, author, date, and message.
+Now let's just do another quick commit on another new file:
 
     $ git log --relative-date
     $ cp rfc-template.md data-rfc.md
     $ git add data-rfc.md
 
-Provide commit message via command-line.
+Instead of opening up the editor, you can just quickly commit via command-line.
 
     $ git commit -m "Create data RFC from rfc-template.md."
 
-Edit.
+Now let's make some changes to `data-rfc.md`:
 
 ```markdown
-# Bristol Python bootcamp notes
+# Hackathon Notes
 
-by Christopher Woods, Andrew Walker, and Karthik Ram
+by Mike O'Connor, David Glowacki and Fred Manby
 
 ## Overview
 ```
@@ -174,7 +166,7 @@ by Christopher Woods, Andrew Walker, and Karthik Ram
 
     $ git status data-rfc.md
 
-Modified - changed but not staged or commited.
+Modified - changed but not staged or commited. Git shows us that the file has been changed, but it has not been staged or commited yet. Let's do that now: 
 
     $ git add data-rfc.md
     $ git commit -m "Added title, authors, overview, points, references" 
@@ -182,13 +174,25 @@ Modified - changed but not staged or commited.
 
 ### Discarding changes
 
-Make more changes.
+Make a few more changes to `data-rfc.md`, which we're not going to keep:
+
+```markdown
+# Hackathon Notes
+
+This workshop is terrible.... 
+
+by Mike O'Connor, David Glowacki and Fred Manby
+
+## Overview
+```
+
+Use `diff` to see what's changed: 
 
     $ git diff data-rfc.md
 
 `-` line removed, `+` line added, `-` and `+` line edited.
 
-Throw away changes or revert.
+I've changed my mind, let's throw away changes (revert).
 
     $ git checkout -- data-rfc.md
     $ git status data-rfc.md
@@ -200,7 +204,7 @@ Throw away changes or revert.
     $ git ll
     $ git log data-rfc.md
 
-Globally-unique commit identifier.
+Globally-unique commit identifier can be used to compare or go back to previous commits:
 
     $ git diff COMMITID
     $ git diff OLDER_COMMITID NEWER_COMMITID
@@ -210,9 +214,7 @@ Globally-unique commit identifier.
     $ git checkout master
     $ ls
 
-Undo and redo for directories and files.
-
-Top tip: Commit often increases the granularity of "undo". 
+Top tip: There's the notion of 'atomic commits'. If you commit often with every change you make, you can precisely undo any mistakes you make, and track progress. Very useful for hunting down bugs! 
 
 DropBox and GoogleDrive also preserve every version, they delete old versions after 30 days, or, for GoogleDrive, 100 revisions. 
 
@@ -228,9 +230,9 @@ Commit changes to sets of files and rollback to exact state.
 
 `master` is a branch name.
 
-Multiple sets of changes to files and directories - parallel instances.
+Branches are multiple sets of changes to files and directories - parallel instances.
 
-Useful for bug-fixing releases while working on product, saves user waiting ror next full release.
+Useful for bug-fixing releases while working on product or trying out a new feature. 
 
 Create branch for release.
 
@@ -273,15 +275,37 @@ Popular model of release branch, master (up-to-date stable) branch, feature-spec
      |                /
      o---o---o---o---o                   kate
 
+Let's create a branch.
+
+$ git branch some-notes
+$ git checkout some-notes
+
+Note we could do this with one command:
+
+$ git checkout -b some-notes
+
+Make some changes to `data-rfc.md`.
+
+$ git add data-rfc.md
+$ git commit -m "new features"
+
+Now imagine we needed to go back to the master branch and make a change to `rfc-template.md`
+
+$ git checkout master 
+
+Make some changes to `rfc-template.md`. Let's commit with a one-liner 
+
+$ git commit -am "Quick fix" 
+
+Ok now we're happy with the changes, and we want to bring the changes on the `some-notes` branch back into `master`. For that we use the merge command. 
+
+$ git merge some-notes
+
+What if we had made conflicting changes to the same file? We'll look into that below. 
+
 ## Working from multiple locations with a remote repository
 
-Keep track of changes, a lab notebook for code and documents.
-
-Roll back changes.
-
-Delete repository means lose all files and all changes.
-
-How to access repository from multiple locations e.g. desktop, laptop?
+We're now keeping track of our code on this machine, but what if we lose the laptop, or accidentally delete the folder? What if we want to work from other machines, or with other people? 
 
 ### GitHub and BitBucket
 
@@ -291,7 +315,7 @@ How to access repository from multiple locations e.g. desktop, laptop?
 * [GoogleCode](http://code.google.com)
 * [SourceForge](http://sourceforge.net)
 
-Repositories and project infrastructure e.g. wiki, issue (ticket) and bug trackers, release management, commit-triggered e-mails etc.
+These services provide cloud based repositories and project infrastructure e.g. wiki, issue (ticket) and bug trackers, release management, commit-triggered e-mails etc.
 
 All rights are reserved on unlicensed repositories - you should licence it to let people know what they can and cannot do with it.
 
@@ -300,6 +324,8 @@ BitBucket offers free, private repositories to researchers.
 GitHub and others offer pricing plans to host private repositories.
 
 Git =/= GitHub
+
+Let's create a repository on both. 
 
 [Sign-up for free GitHub account](https://github.com/signup/free)
 
@@ -310,7 +336,7 @@ Git =/= GitHub
 GitHub:
 * [Log in](https://github.com).
 * Click on Create a new repo icon on top right, next to user name.
-* Enter Repository name: `bootcamp`.
+* Enter Repository name: `hackathon`.
 * Check Public option is selected.
 * Check Initialize this repository with a README is unselected.
 * Click Create Repository.
@@ -318,7 +344,7 @@ GitHub:
 BitBucket:
 * [Log in](https://bitbucket.com).
 * Click on Create  icon on top left, next to Bitbucket logo.
-* Enter Repository name: `bootcamp`.
+* Enter Repository name: `hackthon`.
 * Check private repository option is ticked.
 * Check repository type is `Git`.
 * Check Initialize this repository with a README is unselected.
@@ -342,11 +368,12 @@ BitBucket, click Source tab and click Commits tab.
 
 ### Cloning a remote repository
 
+Let's delete our local copy of the repository (!) and clone it from one of the remote repositories
     $ cd ..
-    $ rm -rf papers
-    $ git clone https://github.com/USERNAME/bootcamp.git
-    $ git clone https://USERNAME@bitbucket.org/USERNAME/bootcamp.git
-    $ cd bootcamp
+    $ rm -rf hackathon
+    $ git clone https://github.com/USERNAME/hackathon.git
+    $ git clone https://USERNAME@bitbucket.org/USERNAME/hackathon.git
+    $ cd hackathon
     $ git log
     $ ls -A
 
@@ -359,7 +386,7 @@ GitHub, click Code tab and click Network tab.
 
 BitBucket, click Source tab and click Commits tab.
 
-Always pull before push.
+Always pull before push. This way you make sure your commits match the remote repository
 
 ### Pull changes from a remote repository
 
@@ -408,11 +435,11 @@ Make changes, add, commit.
     $ git push
     $ cd ../anotherbootcamp
 
-Make changes to same lines, add, commit.
+ake changes to same lines, add, commit.
 
     $ git push
 
-Push fails. Fetch changes made to remote repository.
+Push fails because it cannot merge the conflicting changes. Fetch changes made to remote repository.
 
     $ git fetch
     $ git diff origin/master
@@ -491,14 +518,6 @@ Change, add, commit.
     $ ls
     $ git merge new_template
     $ git branch -D new_template
-
-## Push the Software Carpentry repository to BitBucket
-
-Create "swc" repository.
-
-    cd ~
-    cd boot-camps
-    git push -u http://bitbucket.org/USERNAME/swc.git 2013-07-bath
 
 ## Summary
 
