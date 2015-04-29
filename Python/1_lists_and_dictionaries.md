@@ -346,7 +346,7 @@ Here is a script, [1a/encode.py](1a/encode.py) which contains a dictionary for c
 
     message = "SOS We have hit an iceberg and need help quickly"
 
-You should find a copy of this script in your directory (in [1a/encode.py](1a/encode.py)).
+Download this script into the repository you made earlier add it as an initial version and commit. 
 
 Use what you have learned about lists and dictionaries to loop through each letter in the message, look-up the corresponding Morse code for that letter, and join the result together to create a string that contains the Morse code that will be transmitted to save the ship. Note that the dictionary contains only lowercase letters, so you will need to use "TAB" and help() to find a function to convert uppercase letters to lowercase.
 
@@ -365,8 +365,6 @@ You have just received the Morse code message in the script [1b/decode.py](1b/de
                        ' ':'/' }
 
     message = "... --- ... / .-- . / .... .- ...- . / .... .. - / .- -. / .. -.-. . -... . .-. --. / .- -. -.. / -. . . -.. / .... . .-.. .--. / --.- ..- .. -.-. -.- .-.. -.--"
-
-You should find a copy of this script in your directory (in [1b/decode.py](1b/decode.py)).
 
 Use what you have learned about lists and dictionaries to loop through Morse letters in the Morse code message, and convert them back to English. Note that "letter_to_morse" is a dictionary that goes from letters to Morse code. You will need to first invert this dictionary to let you look up the letter from the Morse code (if you need help, look at [1b/example/invert.py](1b/example/invert.py)). Morse code letters are separated by spaces. Use ipython TAB and help() to find a function that will split the message into letters.
 
