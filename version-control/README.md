@@ -276,30 +276,38 @@ Popular model of release branch, master (up-to-date stable) branch, feature-spec
      o---o---o---o---o                   kate
 
 Let's create a branch.
-
-$ git branch some-notes
-$ git checkout some-notes
-
+```
+ git branch some-notes
+ git checkout some-notes
+```
 Note we could do this with one command:
 
-$ git checkout -b some-notes
-
+```
+ git checkout -b some-notes
+```
 Make some changes to `data-rfc.md`.
 
-$ git add data-rfc.md
-$ git commit -m "new features"
-
+```
+git add data-rfc.md
+git commit -m "new features"
+```
 Now imagine we needed to go back to the master branch and make a change to `rfc-template.md`
 
-$ git checkout master 
+```
+git checkout master 
+```
 
 Make some changes to `rfc-template.md`. Let's commit with a one-liner 
 
-$ git commit -am "Quick fix" 
+```
+git commit -am "Quick fix" 
+```
 
 Ok now we're happy with the changes, and we want to bring the changes on the `some-notes` branch back into `master`. For that we use the merge command. 
 
-$ git merge some-notes
+```
+git merge some-notes
+```
 
 What if we had made conflicting changes to the same file? We'll look into that below. 
 
