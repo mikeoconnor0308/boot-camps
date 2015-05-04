@@ -29,7 +29,7 @@ Wednesday 6th
 * 13:30 [NumPy](Python/5_numpy.md) - Dave
 * 15:00 Break
 * 15:30 Software Design Principles - Dave and Fred
-* 16:00 Other Areas - Dave, Mike, Fred
+* 16:00 Other Areas (Parallelism, Software Design in Practice, Take-Home Messages) - Dave, Mike, Fred
 * 17:00 Conclusion
 
 ## Hints and tips
