@@ -15,9 +15,9 @@ The course is divided into a related series of sessions:
 
 Today
 
- * [Python - Containers, Lists and Dictionaries](1_lists_and_dictionaries.md)
- * [Good Programming Practice - Functions and Modules](2_functions_and_modules.md)
- * [Good Programming Practice - Documenting Code](3_documenting_code.md)
+ * [Containers, Lists and Dictionaries](1_lists_and_dictionaries.md)
+ * [Functions and Modules](2_functions_and_modules.md)
+ * [Documenting Code](3_documenting_code.md)
 
 Tomorrow
 
