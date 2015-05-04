@@ -12,9 +12,9 @@ Monday 5th
 * 11:00 [Version Control Part 2: Remote repositories](version-control/ReadMeSession2.md) - Mike
 * 12:30 Lunch
 * 13:30 [Python and Good programming practice](Python/python_and_good_programming_practice.md) - Mike
- * [Containers, Lists and Dictionaries](1_lists_and_dictionaries.md)
- * [Functions and Modules](2_functions_and_modules.md)
- * [Documenting Code](3_documenting_code.md)
+ * [Containers, Lists and Dictionaries](Python/1_lists_and_dictionaries.md)
+ * [Functions and Modules](Python/2_functions_and_modules.md)
+ * [Documenting Code](Python/3_documenting_code.md)
 * 15:00 Coffee!
 * 15:30 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://docs.python.org/2/library/pdb.html),[PyCharm](https://www.jetbrains.com/pycharm/)) - Mike
 * 16:00 [Documenting code](Python/3_documenting_code.md) ([Sphinx](sphinx-doc.org)) - Fred
