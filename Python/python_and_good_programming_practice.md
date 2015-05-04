@@ -13,12 +13,9 @@ us as we come around the room.
 
 The course is divided into a related series of sessions:
 
-This morning
+Today
 
  * [Python - Containers, Lists and Dictionaries](1_lists_and_dictionaries.md)
-
-This afternoon
-
  * [Good Programming Practice - Functions and Modules](2_functions_and_modules.md)
  * [Good Programming Practice - Documenting Code](3_documenting_code.md)
 
