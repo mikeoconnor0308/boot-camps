@@ -7,9 +7,9 @@ Monday 5th -Tuesday 6th April 2015.
 Monday 5th
 
 * 09:30 Introduction and Overview - Fred
-* 10:00 [Version Control Part 1: Basic git](version-control/README.md) ([slides](http://karthik.github.io/git_intro/#/slide-title)),[SourceTree](http://www.sourcetreeapp.com/) - Mike
+* 10:00 [Version Control Part 1: Basic git](version-control/ReadMeSession1.md) ([slides](http://karthik.github.io/git_intro/#/slide-title)),[SourceTree](http://www.sourcetreeapp.com/) - Mike
 * 10:30 Coffee!
-* 11:00 [Version Control Part 2: Remote repositories](version-control/README.md) - Mike
+* 11:00 [Version Control Part 2: Remote repositories](version-control/ReadMeSession2.md) - Mike
 * 12:30 Lunch
 * 13:30 [Python and Good programming practice](Python/python_and_good_programming_practice.md) - Mike
 * 15:00 Coffee!
