@@ -377,6 +377,7 @@ BitBucket, click Source tab and click Commits tab.
 ### Cloning a remote repository
 
 Let's delete our local copy of the repository (!) and clone it from one of the remote repositories
+
     $ cd ..
     $ rm -rf hackathon
     $ git clone https://github.com/USERNAME/hackathon.git
