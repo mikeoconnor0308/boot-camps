@@ -214,4 +214,4 @@ Make sure that you commit your edited script to your Git repository.
     $ git commit -am "...commit message..."
     $ git push
 
-# [Previous](1_lists_and_dictionaries.md) [Up](python_and_good_programming_practice.md) [Next](3_documenting_code.md) 
+# [Previous](1_lists_and_dictionaries.md) [Next](3_documenting_code.md) 
