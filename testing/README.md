@@ -1,7 +1,5 @@
 # Testing
 
-Mike Jackson, The Software Sustainability Institute. 
-
 **Based on materials by Katy Huff, Rachel Slaybaugh, and Anthony Scopatz. With special thanks to Gordon Webster, the [Digital Biologist](http://www.digitalbiologist.com), for kindly allowing use of his [Python DNA function](http://www.digitalbiologist.com/2011/04/code-tutorial-getting-started-with-python.html).**
 
 ## Some questions for you
