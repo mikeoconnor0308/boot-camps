@@ -24,9 +24,9 @@ Wednesday 6th
 
 * 09:30 [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
 * 10:30 Break
-* 11:00 [NumPy](Python/5_numpy.md) - Dave
+* 11:00 [How (and how much) to test software](testing/README.md) ([slides](testing/Testing.ppt)) - Dave and Mike
 * 12:30 Lunch
-* 13:30 [How (and how much) to test software](testing/README.md) ([slides](testing/Testing.ppt)) - Dave and Mike
+* 13:30 [NumPy](Python/5_numpy.md) - Dave
 * 15:00 Break
 * 15:30 Software Design Principles - Dave and Fred
 * 16:00 Other Areas - Dave, Mike, Fred
