@@ -38,7 +38,7 @@ As you can see, allowing a user of your code to mess with the data on which it r
 
 ## Encapsulation - Hiding Data
 
-Object orientated programming solves this problem by packaging functions and their associated data together into a Class. A Class defines the type of data, together with functions that manipulate that data. Encapsulation is a key idea of object orientated programming, and means to hide the data in a Class, such that only the functions of defined as part of the Class can read or write (change) the data.
+Object orientated programming solves this problem by packaging functions and their associated data together into a Class. A Class defines the type of data, together with functions that manipulate that data. Encapsulation is a key idea of object orientated programming, and refers to the practice of hiding the data in a Class, such that only the functions of defined as part of the Class can read or write (change) the data.
 
 For example, take a look at this code from [guessgame.py](guessgame.py)
 
