@@ -96,7 +96,7 @@ Lets take a look at the help for GuessGame
      |  guess(self, value)
      |      See if the passed value is equal to the secret
 
-"GuessGame", defined in this module is a example of a Class. Classes are used to package up functions with associated data. As you can see in the help(), we can only see the functions defined in the class. There are two functions, "__"init"__", which is used to construct a new Object of type GuessGame, and "guess" which is used to guess the secret. As you can see, the first argument to each of these functions is "self". "self" is a special variable that is used by the Class to gain access to the data hidden within.
+"GuessGame", defined in this module is a example of a Class. Classes are used to package up functions with associated data. As you can see in the help(), we can only see the functions defined in the class. There are two functions, __init__, which is used to construct a new Object of type GuessGame, and "guess" which is used to guess the secret. As you can see, the first argument to each of these functions is "self". "self" is a special variable that is used by the Class to gain access to the data hidden within.
 
 Lets look again at the source for GuessGame (in [guessgame.py](guessgame.py))
 
