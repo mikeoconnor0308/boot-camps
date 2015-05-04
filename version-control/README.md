@@ -444,7 +444,7 @@ Make changes, add, commit.
     $ git push
     $ cd ../anotherbootcamp
 
-ake changes to same lines, add, commit.
+Make changes to same lines, add, commit.
 
     $ git push
 
