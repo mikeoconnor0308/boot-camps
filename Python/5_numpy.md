@@ -94,4 +94,3 @@ What do you think? Does it do a good job of explaining how to use the software?
 
 What changes would you make to the tutorial? What information do you think is needed for a new user?
 
-# [Previous](4_object_orientation.md) [Up](python_and_good_programming_practice.md)
