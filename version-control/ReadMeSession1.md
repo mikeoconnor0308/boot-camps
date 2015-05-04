@@ -310,6 +310,3 @@ git merge some-notes
 ```
 
 What if we had made conflicting changes to the same file? We'll look into that below. 
-
-
-    $ git config --global color.diff auto
