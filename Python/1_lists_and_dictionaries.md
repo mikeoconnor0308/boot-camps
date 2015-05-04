@@ -154,7 +154,7 @@ You can nest lists as deeply as you want, creating a multidimensional matrix.
     $ matrix[0][0][0][0][0]
     5
 
-## Dictionaries
+## Dictionaries (A.K.A Associative Arrays)
 
 Lists let you store lots of variables, and to access them by their location in the list. However, there are lots of times when you want to store lots of variables, but access them using more complex relationships. One example is a dictionary, which lets you store variables and access them using a key. 
 
