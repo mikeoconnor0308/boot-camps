@@ -1,6 +1,6 @@
 # CDT Hackathon - Oxford 2015
 
-Monday 5th - Tuesday 6th, April 2015.
+Tues 5th - Wed 6th, April 2015.
 
 Mike O'Connor, David Glowacki, Fred Manby
 
