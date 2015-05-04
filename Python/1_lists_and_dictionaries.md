@@ -332,8 +332,8 @@ Note that string.join has added a space between each letter. Using help() we can
 
 If you haven't already, clone this repository to somewhere appropriate:
 
-$ git clone --branch 2015-05-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
-$ cd boot-camps/Python
+    $ git clone --branch 2015-05-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
+    $ cd boot-camps/Python
 
 ### Exercise 1a
 
