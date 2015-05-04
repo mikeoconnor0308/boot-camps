@@ -28,7 +28,7 @@ Wednesday 6th
 * 10:30 Break
 * 11:00 [How (and how much) to test software](testing/README.md) ([slides](testing/Testing.ppt)) - Dave and Mike
 * 12:30 Lunch
-* 13:30 [NumPy](Python/5_numpy.md) - Dave
+* 13:30 [Software Design and NumPy](Python/5_numpy.md) - Dave
 * 15:00 Break
 * 15:30 Software Design Principles - Dave and Fred
 * 16:00 Other Areas (Parallelism, Software Design in Practice, Take-Home Messages) - Dave, Mike, Fred
