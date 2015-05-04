@@ -1,7 +1,7 @@
 
 # Good Programming Practice - Documenting Code
 
-In the [last session](2_functions_and_modules.md) you learned how to package code into functions and to package functions into modules (also called libraries). Functions and modules let you easily design, write and package your code so that it is easy to understand and easily reusable. However, to share the code, and in order to help others (and even yourself, several months or years later) to really understand how it works, you need to add documentation.
+In the [last session](2_functions_and_modules.md) you learned how to package code into functions and to package functions into modules (also called libraries). Functions and modules let you easily design, write and package your code so that it is easy to understand and easily reusable. However, to share the code, and in order to help others (and even yourself, several months or years later) to really understand how it works, you need to add documentation. The general rule of thumb is that YOU CAN NEVER HAVE ENOUGH DOCUMENTATION.
 
 You have already seen documentation using python "help()". For example, lets look at the documentation for the "string" module that we used in the [first session](1_lists_and_dictionaries.md).
 
