@@ -204,7 +204,7 @@ I've changed my mind, let's throw away changes (revert).
     $ git ll
     $ git log data-rfc.md
 
-Globally-unique commit identifier can be used to compare or go back to previous commits:
+Globally-unique commit identifier can be used to compare or go back to previous commits. `COMMITID`, `OLDER_COMMITID` and `NEWER_COMMITID` refer to hashes (the long string of numbers outputted by `git log`:
 
     $ git diff COMMITID
     $ git diff OLDER_COMMITID NEWER_COMMITID
