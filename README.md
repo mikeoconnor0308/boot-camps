@@ -18,7 +18,7 @@ Tuesday 5th
  * [Functions and Modules](Python/2_functions_and_modules.md)
  * [Documenting Code](Python/3_documenting_code.md)
 * 15:30 Coffee!
-* 16:00 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://docs.python.org/2/library/pdb.html),[PyCharm](https://www.jetbrains.com/pycharm/)) - Mike
+* 16:00 Software Development Tools: Debugging and IDEs ([pdb](https://docs.python.org/2/library/pdb.html),[PuDB](https://pypi.python.org/pypi/pudb),[PyCharm](https://www.jetbrains.com/pycharm/)) - Mike
 * 16:30 [Documenting code](Python/3_documenting_code.md) ([Sphinx](sphinx-doc.org)) - Fred
 * 17:00 Conclusion 
 
