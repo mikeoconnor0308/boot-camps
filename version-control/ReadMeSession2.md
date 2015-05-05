@@ -47,12 +47,12 @@ BitBucket:
 
 Push `master` branch to GitHub:
 
-    $ git remote add origin https://github.com/USERNAME/bootcamp.git
+    $ git remote add origin https://github.com/USERNAME/hackathon.git
     $ git push -u origin master
 
 Push `master` branch to BitBucket:
 
-    $ git remote add origin https://USERNAME@bitbucket.org/USERNAME/bootcamp.git
+    $ git remote add origin https://USERNAME@bitbucket.org/USERNAME/hackathon.git
     $ git push -u origin --all
 
 `origin` is an alias for repository URL. `-u` sets local repository to track remote repository.
@@ -88,8 +88,8 @@ Always pull before push. This way you make sure your commits match the remote re
 
     $ cd ..
     $ ls
-    $ git clone https://github.com/USERNAME/bootcamp.git anotherbootcamp
-    $ git clone https://USERNAME@bitbucket.org/USERNAME/bootcamp.git anotherbootcamp
+    $ git clone https://github.com/USERNAME/hackathon.git anotherbootcamp
+    $ git clone https://USERNAME@bitbucket.org/USERNAME/hackathon.git anotherbootcamp
     $ ls
 
 Pretend clones are on separate machines. 3 repositories - one remote, 2 local on our 'separate machines'.
@@ -178,8 +178,8 @@ Owner, on GitHub, click on the Settings tab, click on Collaborators, add partner
 Owner, on BitBucket, click Share link, add partner's BitBucket name.
 Both,
 
-    $ git clone https://github.com/OWNERUSERNAME/bootcamp.git
-    $ git clone https://USERNAME@bitbucket.org/USERNAME/bootcamp.git 
+    $ git clone https://github.com/OWNERUSERNAME/hackathon.git
+    $ git clone https://USERNAME@bitbucket.org/USERNAME/hackathon.git 
 
 Now:
 
