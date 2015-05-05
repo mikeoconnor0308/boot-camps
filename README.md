@@ -8,10 +8,10 @@ Mike O'Connor, David Glowacki, Fred Manby
 
 Tuesday 5th
 
-* 09:30 Introduction and Overview - Fred
-* 10:00 [Version Control Part 1: Basic git](version-control/ReadMeSession1.md) ([slides](http://karthik.github.io/git_intro/#/slide-title)),[SourceTree](http://www.sourcetreeapp.com/) - Mike
-* 10:30 Coffee!
-* 11:00 [Version Control Part 2: Remote repositories](version-control/ReadMeSession2.md) - Mike
+* 10:00 Introduction and Overview - Fred
+* 10:30 [Version Control Part 1: Basic git](version-control/ReadMeSession1.md) ([slides](http://karthik.github.io/git_intro/#/slide-title)),[SourceTree](http://www.sourcetreeapp.com/) - Mike
+* 11:30 Coffee!
+* 12:00 [Version Control Part 2: Remote repositories](version-control/ReadMeSession2.md) - Mike
 * 12:30 Lunch
 * 13:30 Python and Good programming practice - Mike
  * [Containers, Lists and Dictionaries](Python/1_lists_and_dictionaries.md)
