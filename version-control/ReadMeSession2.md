@@ -47,15 +47,15 @@ BitBucket:
 
 Push `master` branch to GitHub:
 
-    $ git remote add origin https://github.com/USERNAME/hackathon.git
-    $ git push -u origin master
+    $ git remote add origin-github https://github.com/USERNAME/hackathon.git
+    $ git push -u origin-github master
 
 Push `master` branch to BitBucket:
 
-    $ git remote add origin https://USERNAME@bitbucket.org/USERNAME/hackathon.git
-    $ git push -u origin --all
+    $ git remote add origin-bitbucket https://USERNAME@bitbucket.org/USERNAME/hackathon.git
+    $ git push -u origin-bitbucket --all
 
-`origin` is an alias for repository URL. `-u` sets local repository to track remote repository.
+`origin-bitbucket` and `origin-github` is an alias for repository URL. `-u` sets local repository to track remote repository. Below, I use the term `origin` to refer to `origin-github` and `origin-bitbucket` interchangeably. Either just use one or experiment using both! 
 
 GitHub, click Code tab and click Network tab.
 
