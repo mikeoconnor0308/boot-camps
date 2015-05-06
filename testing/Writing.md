@@ -78,6 +78,8 @@ We explicitly list the expected weights in each statement. But, by doing this th
 
 But this isn't very modular, and modularity is a good design principle, so let's define some test functions,
 
+    import dna
+    
     def test_a():
         assert calculate_weight('A') == NUCLEOTIDES['A']
     def test_g():
@@ -93,14 +95,16 @@ And, rather than have our tests and code in the same file, let's separate them o
 
     $ nano test_dna.py
 
-Now, our function and nucleotides data are in `dna.py` and we want to refer to them in `test_dna.py` file, we need to *import* them. We can do this as,
-
-    from dna import calculate_weight
-    from dna import NUCLEOTIDES
-
-Then we can add all our test functions and function calls to this file. And run the tests,
+All our test functions and function calls should be in test_dna.py. Now we can run the tests,
 
     $ python test_dna.py
+
+or else in ipython as 
+
+    $ import test_dna
+    $ test_dna.test_a
+    $ test_dna.test_g
+    $ test_dna.test_ga
 
 Typically, a test function,
 
