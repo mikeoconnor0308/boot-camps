@@ -26,6 +26,8 @@ We can get round this by comparing to within a given threshold, or delta, for ex
 Test frameworks such as `nose`, often provide functions to handle this for us. For example, to test that 2 numbers are equal when rounded to a given number of decimal places,
 
     $ python
+    >>> expected = 1 + 1 
+    >>> actual = 2.0000001
     >>> from nose.tools import assert_almost_equal
     >>> assert_almost_equal(expected, actual, 0)
     >>> assert_almost_equal(expected, actual, 1)
