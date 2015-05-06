@@ -47,7 +47,7 @@ We can add a test to our code as follows,
 
 Now, the exception is *caught* by the `except` block. This is a *runtime test*. It alerts the user to exceptional behavior in the code. Often, exceptions are related to functions that depend on input that is unknown at compile time. Such tests make our code robust and allows our code to behave gracefully - they anticipate problematic values and handle them.
 
-Often, we want to pass such errors to other points in our program rather than just print a message and continue. So, for example we could do,
+Often, we want to pass such errors to other points in our program rather than just print a message and continue. So, for example we could replace the last two lines of the previous code block by:
 
     except TypeError:
         raise ValueError('The input is not a sequence e.g. a string or list')
