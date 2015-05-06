@@ -59,6 +59,13 @@ you know your username and password when you arrive
 We recommend that you to work through this short tutorial on 
 [Beginning Python](http://chryswoods.com/beginning_python) to refresh yourself on Python. 
 
+## Extras
+
+If you get through the material, here are some extra tutorials for the keen:
+
+### OpenCL
+https://github.com/HandsOnOpenCL/Lecture-Slides
+
 ## Acknowledgements 
 
 This workshop is almost entirely based upon the great resource that is [Software Carpentry](https://software-carpentry.org/).
