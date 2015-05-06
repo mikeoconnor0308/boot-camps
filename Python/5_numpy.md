@@ -1,7 +1,7 @@
 
-# Program Design as Exemplified in NumPy
+# NumPy
 
-In the last session you saw how to use classes and objects to write software that can be used safely and easily by other developers. It is good practice to write software that can be used easily by other people. The best way to learn how to do this is to read and try to use other people's software. You will learn to improve your code by working out what they did right, and also by getting annoyed by the things that they did wrong.
+In the last session you saw how to use classes and objects to write software and associated tests that can be used safely and easily by other developers. It is good practice to write software that can be used easily by other people. The best way to learn how to do this is to read and try to use other people's software. You will learn to improve your code by working out what they did right, and also by getting annoyed by the things that they did wrong.
 
 NumPy is a complete, object-orientated module for fast maths (numerics) in Python. All of the code needed to manipulate matrices and vectors, calculate random numbers and perform polynomial fitting is obviously very complex. This complexity is hidden behind a set of classes / objects that are provided by NumPy to provide a simple, easy-to-use interface for users such as us.
 
