@@ -54,6 +54,8 @@ Often, we want to pass such errors to other points in our program rather than ju
 
 which raises a new exception, with a more meaningful message. If writing a complex application, our user interface could then present this to the user e.g. as a dialog box.
 
+The official Python documentation has a great discussion of [different types of errors that Python recognizes](https://docs.python.org/2/tutorial/errors.html).
+
 Runtime tests don't test our functions behaviour or whether it's implemented correctly. So, we can add some tests,
 
     print "A is ", calculate_weight('A')
