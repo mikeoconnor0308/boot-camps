@@ -2,16 +2,6 @@
 
 **Based on materials by Katy Huff, Rachel Slaybaugh, and Anthony Scopatz. With special thanks to Gordon Webster, the [Digital Biologist](http://www.digitalbiologist.com), for kindly allowing use of his [Python DNA function](http://www.digitalbiologist.com/2011/04/code-tutorial-getting-started-with-python.html).**
 
-## Some questions for you
-
-Let's open with some questions. How many of you test your code or scripts...
-
-* With a set of input data and check that this gives an expected set of output data?
-* With multiple sets of input data?
-* With input data you know to be incorrect and check that your code or scripts behave appropriately e.g. giving a warning, or exiting, or anything that doesn't involve producing output data that *seems* OK but is not?
-* After every change you've made to fix a bug or optimise your code or to add a new feature?
-* Using some form of automation e.g. a set of testing scripts or a test framework?
-
 ## What is testing?
 
 Software testing is exercising and confirming expected behaviours and results from code. It allows us to check that,
