@@ -68,7 +68,7 @@ But we'd have to visually inspect the results to see they are as expected. So, l
     assert calculate_weight('G') == 329.2
     assert calculate_weight('GA') == 460.4
 
-`assert` checks whether a condition is true and, if not, raises an exception.
+`assert` checks whether a condition is true and, if not, raises an exception. Again you can find a good description of how to use assert [here](https://wiki.python.org/moin/UsingAssertionsEffectively).
 
 We explicitly list the expected weights in each statement. But, by doing this there is a risk that we mistype one. A good design principle is to define constant values in one place only. As we already have defined them in `nucleotides` we can just refer to that,
 
