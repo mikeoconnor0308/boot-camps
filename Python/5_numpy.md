@@ -90,7 +90,4 @@ If you are stuck, there is an example completed script in [5/example/matrix_test
 
 Read and work through [this official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial).
 
-What do you think? Does it do a good job of explaining how to use the software?
-
-What changes would you make to the tutorial? What information do you think is needed for a new user?
 
