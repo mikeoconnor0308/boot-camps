@@ -16,7 +16,7 @@ Tuesday 5th
 * 14:00 Python and Good programming practice - Rob
     * [Python part 1](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
 * 15:30 Coffee!
-* 16:00 Software Development Tools: Debugging and IDEs ([PyCharm](https://www.jetbrains.com/pycharm/)) - Dave
+* 16:00 Software Development Tools: Debugging and IDEs using [PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md) - Dave
 * 17:00 Conclusion 
 
 Wednesday 6th
@@ -58,4 +58,4 @@ We recommend that you to work through this short tutorial on
 
 ## Acknowledgements 
 
-This workshop is almost entirely based upon the great resource that is [Software Carpentry](https://software-carpentry.org/).
+Much of this workshop borrows from the great resource that is [Software Carpentry](https://software-carpentry.org/).
