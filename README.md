@@ -29,8 +29,8 @@ Wednesday 6th
 * 12:30 Lunch
 * 13:30 [Software Design and NumPy](Python/5_numpy.md) - Dave
 * 15:00 Break
-* 15:30 Software Design Principles - Dave and Fred
-* 16:00 Hackathon Introduction - Dave & Rob
+* 15:30 Software Design Principles - Dave & Rob
+* 16:00 Hackathon Introduction - Dave
 * 17:00 Conclusion
 
 ## Hints and tips
