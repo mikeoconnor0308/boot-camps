@@ -2,7 +2,7 @@
 
 Tues 5th - Wed 6th, April 2015.
 
-Mike O'Connor, David Glowacki, Fred Manby
+Rob Arbon, Simon Bennie, David Glowacki
 
 ## Timetable
 
