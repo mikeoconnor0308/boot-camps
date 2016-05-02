@@ -127,7 +127,7 @@ Here you can see that the keyword "class" is used to define a new class (in this
 
 Note that the variables are defined as attached to "self", via the full stop, e.g. "self._secret". "self" is a special variable that is only available within the functions of the class, and provides access to the hidden data of the class. You can see that "self" is used by the "guess" function to check the passed guess against "self._secret", and to increase the value of "self._nguesses" if the guess is wrong.
 
-We can construct as many instances (objects) of a class as we want, and each will have its own "self" and its own set of hidden variables. For example;
+An instantiation of a particular class is called an object. We can construct as many instances (objects) of a class as we want, and each will have its own "self" and its own set of hidden variables. For example, in what follows we have three different GuessGame objects, named game1, game2, and game3. Key to the practice of object-oriented programming is the notion of "Abstraction". One of the best definitions of abstraction I’ve ever read states: “An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of object and thus provide crisply defined conceptual boundaries, relative to the perspective of the viewer.” (G. Booch, in "Object-Oriented Design With Applications", Benjamin/Cummings, Menlo Park, California, 1991). In this case, objects are defined by their secret, the number of guesses, and functions that help keep track of whether we have won or lost the game;
 
     $ ipython
     $ from guessgame import GuessGame
