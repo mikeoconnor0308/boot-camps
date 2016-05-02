@@ -32,10 +32,10 @@ on those features will I think you will find most immediately useful, I have pro
 each video link below.
 
 You should look at the following:
-(1) [Getting started with PyCharmm](https://www.youtube.com/watch?v=BPC-bGdBSM8&index=1&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP) 
+1. [Getting started with PyCharmm](https://www.youtube.com/watch?v=BPC-bGdBSM8&index=1&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP) 
 (note that we will use the PyCharm community version rather than the Professional version)
-(2) [Getting Started with PyCharm: Setup](https://www.youtube.com/watch?v=5rSBPGGLkW0&index=2&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
-(3) [Getting Started with PyCharm: PyCharm UI and Projects](https://www.youtube.com/watch?v=wCJ5kiSmvUY&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=3)
-(4) [Getting Started with PyCharm: Running Python Code] (https://www.youtube.com/watch?v=JLfd9LOdu_U&index=4&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
-(5) [Getting Started with PyCharm: Code Navigation](https://www.youtube.com/watch?v=jmTo5xTRka8&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=6)
-(6) [Getting Started with PyCharm 6/8: Debugging](https://www.youtube.com/watch?v=QJtWxm12Eo0&index=7&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+2. [Getting Started with PyCharm: Setup](https://www.youtube.com/watch?v=5rSBPGGLkW0&index=2&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+3. [Getting Started with PyCharm: PyCharm UI and Projects](https://www.youtube.com/watch?v=wCJ5kiSmvUY&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=3)
+4. [Getting Started with PyCharm: Running Python Code] (https://www.youtube.com/watch?v=JLfd9LOdu_U&index=4&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+5. [Getting Started with PyCharm: Code Navigation](https://www.youtube.com/watch?v=jmTo5xTRka8&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=6)
+6. [Getting Started with PyCharm 6/8: Debugging](https://www.youtube.com/watch?v=QJtWxm12Eo0&index=7&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
