@@ -20,17 +20,30 @@
     5. Organisation: Classes, modules. 
 
 ### Plan
-1. **Individual work**: Work through 'Learn the basics' from [Learn Python](http://www.learnpython.org/en/Welcome)
-2. **Individual work**: Work through *Generators*, *List comprehensions*, *Multiple function arguments*, *Exception Handling* from  [Learn Python](http://www.learnpython.org/en/Welcome)
-    NB. For each concept read up from the Python tutorial (in Resources above). 
+#### EITHER
+1. Work through 'Learn the basics' from [Learn Python](http://www.learnpython.org/en/Welcome)
+2. Work through *Generators*, *List comprehensions*, *Multiple function arguments*, *Exception Handling* from  [Learn Python](http://www.learnpython.org/en/Welcome)
+3. For each concept read up from the [Python tutorial](https://docs.python.org/3/tutorial/index.html). 
+3. Try the following problems: 
+  * [Lists and dictionaries](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/1_lists_and_dictionaries.md#exercise)
+  * [Functions](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/2_functions_and_modules.md#exercise)
+  * [Modules](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/2_functions_and_modules.md#exercise-1)
+3. Read through and try the problems from [Documenting Code](Python/3_documenting_code.md)
 
-3.**EXTRA**: Already a python expert?  Try some [Project Euler](https://projecteuler.net/) challenges. 
+#### OR
+1.  Read through the following and try the exercises. 
+ * [Containers, Lists and Dictionaries](Python/1_lists_and_dictionaries.md)
+ * [Functions and Modules](Python/2_functions_and_modules.md)
+ * [Documenting Code](Python/3_documenting_code.md)
 
-## Part 2 - PyCharmm and Sphinx?
-DRG?
+#### EXTRA
+Already a python expert?  Try some [Project Euler](https://projecteuler.net/) challenges. 
+
+## Part 2 - Debugging and IDEs
+DRG. 
 
 
-## Part 3 - Scipy and Numpy
+## Part 3 - Numpy
 ### Objectives
 1. Understand a Numpy array and the basic operations:
     1. Creating arrays, 
@@ -45,9 +58,9 @@ DRG?
    1. Plot lines, scatter plots, histograms
 
 ### Plan
-1. **Individual work**: Read through section 1.3 in [Scipy lectures](http://www.scipy-lectures.org/) and do the problems at the end. 
-2. **Individual work**: Read through sectio  1.5 in [Scipy lectures](http://www.scipy-lectures.org/)
-3. **Individual work**: Create a bookmark with the following code as the URL
+1. Read through section 1.3 in [Scipy lectures](http://www.scipy-lectures.org/) and do the problems at the end. 
+2. Read through sectio  1.5 in [Scipy lectures](http://www.scipy-lectures.org/)
+3. Create a bookmark with the following code as the URL
 
     ```
     javascript:
@@ -59,7 +72,7 @@ DRG?
    Now go to this [link](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html)
    and press the bookmark.
    The link contains a list of Numpy/scipy problems which you can work through.  The JS in the bookmark obscures the answers.  Mouseover will reveal the answers. 
-3. **Individual work**: Read the matploblib [usage FAQ](http://matplotlib.org/faq/usage_faq.html), thenthrough section  1.4 in [Scipy lectures](http://www.scipy-lectures.org/). 
+3. Read the matploblib [usage FAQ](http://matplotlib.org/faq/usage_faq.html), thenthrough section  1.4 in [Scipy lectures](http://www.scipy-lectures.org/). 
 
 
 
