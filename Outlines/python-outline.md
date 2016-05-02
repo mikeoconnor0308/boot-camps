@@ -2,7 +2,7 @@
 
 ## Setup
 1. Make sure you have python installed. I suggest you use [Anaconda](https://www.continuum.io/downloads)
-2. Install (PyCharm)[https://www.jetbrains.com/pycharm/]
+2. Install [PyCharm](https://www.jetbrains.com/pycharm/)
 
 ## Resources: 
 1. [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial)
