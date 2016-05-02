@@ -1,7 +1,10 @@
+# Integrated Development Environments
+
 Integrated development environments (or IDEs) offer software developers a customizable and integrated 
 set of tools for managing software projects, writing code, debugging, and unit testing. IDEs allow 
 developers to efficiently manage large and complex software projects, which they would struggle with 
-if they were to do it the 'old-fashioned' way - e.g., using text editors and print statements for debugging.
+if they were to do it the 'old-fashioned' way - e.g., using text editors and print statements for 
+debugging.
 
 Major software development firms have shown (over and over again) that developer efficiency increases 
 dramatically using IDEs. When it comes to scientific software development, where you often find yourself 
@@ -23,7 +26,16 @@ PyCharm's layout, understand some of its most commonly used features, and apply 
 tools (e.g., breakpoints, line-by-line execution, and stepping into/out of function calls) to your morse.py 
 example.
 
-To facilitate this session, have a look at some of the video tutorials from the PyCharm developers. 
-In particular, you should look at:
+To facilitate this session, have a look at some of the video tutorials from the PyCharm developers. You may
+find that not all of the features discussed in these videos will be useful to you. To help you better focus
+on those features will I think you will find most immediately useful, I have provided some notes along with
+each video link below.
+
+You should look at the following:
 (1) [Getting started with PyCharmm](https://www.youtube.com/watch?v=BPC-bGdBSM8&index=1&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP) 
-note that we will use the PyCharm community version rather than the Professional version
+(note that we will use the PyCharm community version rather than the Professional version)
+(2) [Getting Started with PyCharm: Setup](https://www.youtube.com/watch?v=5rSBPGGLkW0&index=2&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+(3) [Getting Started with PyCharm: PyCharm UI and Projects](https://www.youtube.com/watch?v=wCJ5kiSmvUY&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=3)
+(4) [Getting Started with PyCharm: Running Python Code] (https://www.youtube.com/watch?v=JLfd9LOdu_U&index=4&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+(5) [Getting Started with PyCharm: Code Navigation](https://www.youtube.com/watch?v=jmTo5xTRka8&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=6)
+(6) [Getting Started with PyCharm 6/8: Debugging](https://www.youtube.com/watch?v=QJtWxm12Eo0&index=7&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
