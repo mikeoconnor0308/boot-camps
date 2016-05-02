@@ -1,6 +1,6 @@
-# CDT Hackathon - Oxford 2015
+# CDT Software Course - TMCS 2016
 
-Tues 5th - Wed 6th, April 2015.
+Tues 3rd - Fri 6th, May 2016.
 
 Rob Arbon, Simon Bennie, David Glowacki
 
