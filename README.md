@@ -9,14 +9,12 @@ Rob Arbon, Simon Bennie, David Glowacki
 Tuesday 5th
 
 * 10:00 Introduction and Overview - Dave
-* 10:30 [Version Control Part 1: Basic git](version-control/ReadMeSession1.md) ([slides](http://karthik.github.io/git_intro/#/slide-title)),[SourceTree](http://www.sourcetreeapp.com/) - Rob
+* 10:30 [Version Control Part 1: Basic git](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - Rob
 * 11:30 Coffee!
-* 12:00 [Version Control Part 2: Remote repositories](version-control/ReadMeSession2.md) - Rob
+* 12:00 [Version Control Part 2: Remote repositories](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - Rob
 * 13:00 Lunch
 * 14:00 Python and Good programming practice - Rob
- * [Containers, Lists and Dictionaries](Python/1_lists_and_dictionaries.md)
- * [Functions and Modules](Python/2_functions_and_modules.md)
- * [Documenting Code](Python/3_documenting_code.md)
+    * [Python part 1](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
 * 15:30 Coffee!
 * 16:00 Software Development Tools: Debugging and IDEs ([PyCharm](https://www.jetbrains.com/pycharm/)) - Dave
 * 17:00 Conclusion 
