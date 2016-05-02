@@ -47,6 +47,18 @@ DRG?
 ### Plan
 1. **Individual work**: Read through section 1.3 in [Scipy lectures](http://www.scipy-lectures.org/) and do the problems at the end. 
 2. **Individual work**: Read through sectio  1.5 in [Scipy lectures](http://www.scipy-lectures.org/)
+3. **Individual work**: Create a bookmark with the following code as the URL
+
+    ```
+    javascript:
+    (function(){
+    boxes = document.getElementsByClassName('python code');
+    for (var i = 0; i < boxes.length; i++){boxes[i].style.backgroundColor="#333"; boxes[i].onmouseover=function(){this.style.backgroundColor="#eee"};boxes[i].onmouseout=function(){this.style.backgroundColor="#333"}}})()
+    ```
+    
+   Now go to this [link](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html)
+   and press the bookmark.
+   The link contains a list of Numpy/scipy problems which you can work through.  The JS in the bookmark obscures the answers.  Mouseover will reveal the answers. 
 3. **Individual work**: Read the matploblib [usage FAQ](http://matplotlib.org/faq/usage_faq.html), thenthrough section  1.4 in [Scipy lectures](http://www.scipy-lectures.org/). 
 
 
