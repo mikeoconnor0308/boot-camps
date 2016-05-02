@@ -31,11 +31,37 @@ find that not all of the features discussed in these videos will be useful to yo
 on those features will I think you will find most immediately useful, I have provided some notes along with
 each video link below.
 
-You should look at the following:
+You should look at the following, and get a Debug session running with morse.py:
+
 1. [Getting started with PyCharmm](https://www.youtube.com/watch?v=BPC-bGdBSM8&index=1&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP) 
-(note that we will use the PyCharm community version rather than the Professional version)
+
+    You should watch this video to get a broad feel for the features available in pyCharm. 
+
 2. [Getting Started with PyCharm: Setup](https://www.youtube.com/watch?v=5rSBPGGLkW0&index=2&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+
+    Note that we will use the PyCharm community version rather than the Professional version. During this software course, all the pyCharm features to you will need access are included within the community edition
+
 3. [Getting Started with PyCharm: PyCharm UI and Projects](https://www.youtube.com/watch?v=wCJ5kiSmvUY&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=3)
+
+    This video will give you an overview of the PyCharm UI's structure - most importantly, the text editor, the project window, and guidance on some tricks to navigate both.
+
 4. [Getting Started with PyCharm: Running Python Code] (https://www.youtube.com/watch?v=JLfd9LOdu_U&index=4&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+
+    Note that if you are using Anaconda for [OSX](https://www.continuum.io/downloads) (which I recommend!), then you should point PyCharm to the Anaconda install directory.
+    You should also focus on how to run a Python Console in your project.
+
 5. [Getting Started with PyCharm: Code Navigation](https://www.youtube.com/watch?v=jmTo5xTRka8&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=6)
-6. [Getting Started with PyCharm 6/8: Debugging](https://www.youtube.com/watch?v=QJtWxm12Eo0&index=7&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+
+    Here you should focus on file navigation and text/symbol searching functionality. As your code becomes bigger and bigger, these tricks become invaluable.
+
+6. [Getting Started with PyCharm: Debugging](https://www.youtube.com/watch?v=QJtWxm12Eo0&index=7&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+
+    Here you should focus on how to read the traceback in the run console and how to run the PyCharm debugger. In particular, you want to focus on how to set breakpoints, how to query the values of variables, how to walk through execution via breakpoints, how to walk through execution using 'step over', 'step into my code', and 'step out of'.
+    
+If you finish this up, and you want more information, you can look at these other videos:
+
+1. [Getting Started with PyCharm: Productive Coding](https://www.youtube.com/watch?v=XOkNJxvNtPw&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=5)
+
+2. [Getting Started with PyCharm: Testing](https://www.youtube.com/watch?v=-VzJvNLooj4&index=8&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+3. [Getting Started with PyCharm: Customizing PyCharm](https://www.youtube.com/watch?v=y6n3tjP32wg&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&index=9)
+
