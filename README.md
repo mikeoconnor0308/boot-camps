@@ -16,16 +16,16 @@ Tuesday 5th
 * 14:00 Python and Good programming practice - Rob
     * [Python part 1](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
 * 15:30 Coffee!
-* 16:00 [Software Development Tools: Debugging and IDEs using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md) - Dave
+* 16:00 [Software Development Tools: Debugging and IDEs using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md) - Dave & Rob
 * 17:00 Conclusion 
 
 Wednesday 6th
 
 * 09:30 [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
 * 10:30 Break
-* 11:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - Dave and Rob
+* 11:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - Dave & Rob
 * 12:30 Lunch
-* 13:30 [Software Design and NumPy](Python/5_numpy.md) - Dave
+* 13:30 [Scipy and NumPy](Python/5_numpy.md) - Dave & Rob
 * 15:00 Break
 * 15:30 Software Design Principles - Dave & Rob
 * 16:00 Hackathon Introduction - Dave
