@@ -46,7 +46,7 @@ that you can easily continue to use the same tools for the hackathon!).
 You should test your installation using our testing scripts. To access these start a shell and run the 
 commands:
 
-    git clone --branch 2015-05-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
+    git clone --branch 2016-TMCS-oxford --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
     cd boot-camps/setup
 
 before following [these instructions](setup/README.md).
