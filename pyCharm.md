@@ -31,7 +31,7 @@ find that not all of the features discussed in these videos will be useful to yo
 on those features will I think you will find most immediately useful, I have provided some notes along with
 each video link below.
 
-You should look at the following, and get a Debug session running with morse.py:
+You should look at the following, and get a Debug session running with [morse.py](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/3/example/morse.py):
 
 1. [Getting started with PyCharmm](https://www.youtube.com/watch?v=BPC-bGdBSM8&index=1&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP) 
 
