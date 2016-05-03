@@ -5,11 +5,6 @@
 2. Make sure you have a bitbucket account: [Bitbucket website](https://bitbucket.org/)
 3. Download SourceTree: [SourceTreeApp](https://www.sourcetreeapp.com/)
 
-## Resources:
-1. Official Git documentation: [Git docs](https://git-scm.com/doc)
-2. Useful Git tutorial: [Atlassian tutorial](https://www.atlassian.com/git/tutorials/)
-3. SourceTree tutorial: [SourceTree tutorial](https://confluence.atlassian.com/bitbucket/tutorial-learn-sourcetree-with-bitbucket-cloud-760120235.html)
-4. [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html) (REALLY HELPFUL!) 
 
 ## Part 1
 ### Objectives
@@ -34,7 +29,6 @@
 ### Plan
 1. **REA**: overview of Git - [Intro to Git for Science](http://karthik.github.io/git_intro/#/slide-title)
 2. **Individual work**: Software carpentry course units 2 - 6 only: [Git - SoftwareCarpentry](http://swcarpentry.github.io/git-novice/)
-3. **Individual work**: [Branches](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/version-control/ReadMeSession1.md#branches)
 
 ## Part 2
 ### Objectives:
@@ -47,9 +41,17 @@
     2. `fetch`
     3. `pull`
     4. `push`
+
 ### Plan
 1. **REA**: overview of collaboration and remotes [Intro to Git for Science](http://karthik.github.io/git_intro/#/slide-title)
 2. **Individual work**: Software carpentry course units 7 - end: [Git - SoftwareCarpentry](http://swcarpentry.github.io/git-novice/)
 3. **Individual work**: SourceTree tutorial. 
 
+## Resources:
+1. Official Git documentation: [Git docs](https://git-scm.com/doc)
+2. Useful Git tutorial: [Atlassian tutorial](https://www.atlassian.com/git/tutorials/)
+3. SourceTree tutorial: [SourceTree tutorial](https://confluence.atlassian.com/bitbucket/tutorial-learn-sourcetree-with-bitbucket-cloud-760120235.html)
+4. [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html) (REALLY HELPFUL!) 
+3. [Branches](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/version-control/ReadMeSession1.md#branches)
+4. [How to do branches properly](http://nvie.com/posts/a-successful-git-branching-model/)
 
