@@ -91,9 +91,9 @@ Here's another example of the same code above, built exclusively in terms of obj
 
 * \__init__(self) is responsible for initializing the important data structures required during draws & updates
 
-* on_draw() is responsible for drawing instructions
+* on_draw() is responsible for executing the drawing instructions
  
-* update() is responsible for updates to positions
+* update() is responsible for executing instructions required to update the positions of objects
  
 ```
 import pyglet
