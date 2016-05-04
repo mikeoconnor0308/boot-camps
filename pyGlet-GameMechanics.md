@@ -4,7 +4,7 @@ In this section, you will explore some simple game mechanics available in Python
 
 There is an excellent tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through.
 
-Here is some code that generates randomly placed circles:
+Here is some code, call it pyGlet-draw.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices:
 
 ```
 import pyglet
@@ -48,10 +48,6 @@ def on_draw():
     glColor3f(0.5,0,1)
     drawList[1].draw(GL_LINE_LOOP)
     
-#    for element in drawList:
-#        glColor3f(1,1,0)
-#        element.draw(GL_LINE_LOOP)
-    
 def update(dt):
     #print(dt) # time elapsed since last time a draw was called
     print "Execute Some Function here to update the centers of the circles"
@@ -66,6 +62,29 @@ if __name__ == '__main__':
     pyglet.app.run()
 ```
 
+#Tasks
 
+There's a few things that you should try and do with this code:
+
+* Get it running in PyCharm
+
+* Figure out how to extend the code to draw more than three circles
+    hint - you can think about populating drawList, and then looping over drawList, something like:
+```
+    for element in drawList:
+        glColor3f(1,1,0)
+        element.draw(GL_LINE_LOOP)
+```
+* Rather than randomly generated circles, experiment with different ways of making the circles move. For example, see if you can figure out how to write a function which will make the circles travel in:
+
+    1. Straight lines
+    
+    2. A circular trajectory
+    
+    3. Harmonically, based on how far the circle is displaced from the center of the graphics window
+    
+*  Split out the makeCircle() function so that it lives in a new file called 'simpleShapes.py', and figure out how to construct a module so that can run pyGlet-draw.py by simply including a line which reads "import simpleShapes" 
+
+* Change simpleShapes.py so that rather than calling the makeCircle() function, you have circle class, which should include data (radius, center positions, and vertex lists), as well as functions (to update position). Now you should be able to modify pyGlet-draw.py to instantiate various circle objects, which can then be updated using a command like ".updatePosition"
 
 
