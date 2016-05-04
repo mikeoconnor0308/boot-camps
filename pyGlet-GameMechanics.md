@@ -89,7 +89,7 @@ There's a few things that you should try and do with this code:
 
 Here's another example of the same code above, built exclusively in terms of objects. The functions behave as follows:
 
-* __init__(self) is responsible for initializing the important data structures required during draws & updates
+* \__init__(self) is responsible for initializing the important data structures required during draws & updates
 
 * on_draw() is responsible for drawing instructions
  
