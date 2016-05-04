@@ -87,4 +87,51 @@ There's a few things that you should try and do with this code:
 
 * Change simpleShapes.py so that rather than calling the makeCircle() function, you have a circle class, which should include data (radius, center positions, and vertex lists), as well as functions (to update position). Now you should be able to modify pyGlet-draw.py to instantiate various circle objects (e.g. circle1 = circle(...)). The position of a circle (e.g., circle1) can then be updated using a command like "circle1.updatePosition()"
 
+Here's another example of the same code above, built exclusively in terms of objects. The on_draw() function is responsible for drawing actions, and update() is responsible for updates to positions.
+```
+import pyglet
+from pyglet.gl import *
+from math import *
+from random import randint
+
+def makeCircle(numPoints, radius, xcenter, ycenter):
+    vertices = []
+    for i in range(numPoints):
+        angle = radians(float(i)/numPoints * 360.0)
+        x = radius*cos(angle) + xcenter
+        y = radius*sin(angle) + ycenter
+        vertices += [x,y]
+    circle = pyglet.graphics.vertex_list(numPoints, ('v2f', vertices))
+    return circle
+
+class drawWindow(pyglet.window.Window):
+    def __init__(self):
+        super(drawWindow, self).__init__()
+        self.ncircles = 2
+        self.drawList = [0]*self.ncircles
+        self.center1 = [self.width/2,self.height/2]
+        self.center2 = [self.width/2,self.height/2]
+
+    def on_draw(self):
+        self.drawList[0] = makeCircle(100, 20, self.center1[0], self.center1[1])  # populate the drawList
+        self.drawList[1] = makeCircle(100, 50, self.center2[0], self.center2[1])
+    
+        glClear(pyglet.gl.GL_COLOR_BUFFER_BIT)  # clear the graphics buffer
+        glColor3f(1,1,0)                        # specify colors & draw
+        self.drawList[0].draw(GL_LINE_LOOP)
+        glColor3f(0.5,0,1)                      # specify colors & draw
+        self.drawList[1].draw(GL_LINE_LOOP)
+
+    def update(self,dt):
+        #print(dt) # time elapsed since last time a draw was called
+        print "Updating the centers of the circles"
+        self.center1 = [window.width/2 + randint(-200,200), window.height/2 + randint(-200,200)]
+        self.center2 = [window.width/2 + randint(-200,200), window.height/2 + randint(-200,200)]
+        print "Finished update"
+
+if __name__ == '__main__':
+    window = drawWindow()                                 # initialize a window class
+    pyglet.clock.schedule_interval(window.update, 1/2.0)  # tell pyglet how often we want an update
+    pyglet.app.run()                                      # run pyglet
+```
 
