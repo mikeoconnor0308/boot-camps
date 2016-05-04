@@ -2,7 +2,7 @@
 
 In this section, you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you will need to install either using MacPorts, Brew, or Anaconda.
 
-There is an excellent tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through.
+There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through.
 
 Here is some code, call it pyGlet-draw.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices:
 
@@ -48,8 +48,8 @@ def on_draw():
     glColor3f(0.5,0,1)
     drawList[1].draw(GL_LINE_LOOP)
     
-def update(dt):
-    #print(dt) # time elapsed since last time a draw was called
+def update(dt):             #note that dt is the time elapsed since last time a draw was called
+    #print(dt) 
     print "Execute Some Function here to update the centers of the circles"
     center1[0] = window.width/2 + randint(-200,200)
     center1[1] = window.height/2 + randint(-200,200)
@@ -57,8 +57,8 @@ def update(dt):
     center2[1] = window.height/2 + randint(-200,200)
     
 if __name__ == '__main__':
-#    pyglet.clock.schedule(update) # cause a timed event as fast the architecture allows!
-    pyglet.clock.schedule_interval(update, 1/2.0) # update at 2Hz
+#    pyglet.clock.schedule(update) # this command tells the machine to carry out draws as fast the architecture allows!
+    pyglet.clock.schedule_interval(update, 1/2.0) # this command tells the machine to update at 2Hz
     pyglet.app.run()
 ```
 
