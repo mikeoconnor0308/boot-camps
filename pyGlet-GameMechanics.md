@@ -138,7 +138,7 @@ class drawWindow(pyglet.window.Window):
 
 if __name__ == '__main__':
     window = drawWindow()                                 # initialize a window class
-    pyglet.clock.schedule_interval(window.update, 1/2.0)  # tell pyglet how often we want an update
+    pyglet.clock.schedule_interval(window.update, 1/2.0)  # tell pyglet how often it should execute on_draw() & update()
     pyglet.app.run()                                      # run pyglet
 ```
 
