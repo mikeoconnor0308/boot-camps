@@ -25,14 +25,14 @@ center2 = [window.width/2, window.height/2]
 #print window.width, window.height
     
 def makeCircle(numPoints, radius, xcenter, ycenter):
-vertices = []
-for i in range(numPoints):
-    angle = radians(float(i)/numPoints * 360.0)
-    x = radius*cos(angle) + xcenter
-    y = radius*sin(angle) + ycenter
-    vertices += [x,y]
-circle = pyglet.graphics.vertex_list(numPoints, ('v2f', vertices))
-return circle
+    vertices = []
+    for i in range(numPoints):
+        angle = radians(float(i)/numPoints * 360.0)
+        x = radius*cos(angle) + xcenter
+        y = radius*sin(angle) + ycenter
+        vertices += [x,y]
+    circle = pyglet.graphics.vertex_list(numPoints, ('v2f', vertices))
+    return circle
     
 @window.event
 def on_draw():
@@ -53,18 +53,18 @@ drawList[1].draw(GL_LINE_LOOP)
 #        element.draw(GL_LINE_LOOP)
     
 def update(dt):
-#print(dt) # time elapsed since last time a draw was called
-print "Execute Some Function here to update the centers of the circles"
-center1[0] = window.width/2 + randint(-200,200)
-center1[1] = window.height/2 + randint(-200,200)
-center2[0] = window.width/2 + randint(-200,200)
-center2[1] = window.height/2 + randint(-200,200)
+    #print(dt) # time elapsed since last time a draw was called
+    print "Execute Some Function here to update the centers of the circles"
+    center1[0] = window.width/2 + randint(-200,200)
+    center1[1] = window.height/2 + randint(-200,200)
+    center2[0] = window.width/2 + randint(-200,200)
+    center2[1] = window.height/2 + randint(-200,200)
     
 if __name__ == '__main__':
     
 #    pyglet.clock.schedule(update) # cause a timed event as fast the architecture allows!
-pyglet.clock.schedule_interval(update, 1/2.0) # update at 2Hz
-pyglet.app.run()
+    pyglet.clock.schedule_interval(update, 1/2.0) # update at 2Hz
+    pyglet.app.run()
 ```
 
 
