@@ -7,7 +7,6 @@ There is an excellent tuturial on basic pyGlet structure which is [available at 
 Here is some code that generates randomly placed circles:
 
 ```
-
 import pyglet
 from pyglet.gl import *
 from math import *
@@ -66,7 +65,6 @@ if __name__ == '__main__':
 #    pyglet.clock.schedule(update) # cause a timed event as fast the architecture allows!
 pyglet.clock.schedule_interval(update, 1/2.0) # update at 2Hz
 pyglet.app.run()
-
 ```
 
 
