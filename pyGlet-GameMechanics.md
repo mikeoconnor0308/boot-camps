@@ -87,7 +87,14 @@ There's a few things that you should try and do with this code:
 
 * Change simpleShapes.py so that rather than calling the makeCircle() function, you have a circle class, which should include data (radius, center positions, and vertex lists), as well as functions (to update position). Now you should be able to modify pyGlet-draw.py to instantiate various circle objects (e.g. circle1 = circle(...)). The position of a circle (e.g., circle1) can then be updated using a command like "circle1.updatePosition()"
 
-Here's another example of the same code above, built exclusively in terms of objects. The on_draw() function is responsible for drawing actions, and update() is responsible for updates to positions.
+Here's another example of the same code above, built exclusively in terms of objects. The functions behave as follows:
+
+* __init__(self) is responsible for initializing the important data structures required during draws & updates
+
+* on_draw() is responsible for drawing instructions
+ 
+* update() is responsible for updates to positions
+ 
 ```
 import pyglet
 from pyglet.gl import *
