@@ -36,17 +36,17 @@ def makeCircle(numPoints, radius, xcenter, ycenter):
     
 @window.event
 def on_draw():
+
+    drawList[0] = makeCircle(100, 20, center1[0], center1[1])
+    drawList[1] = makeCircle(100, 50, center2[0], center2[1])
     
-drawList[0] = makeCircle(100, 20, center1[0], center1[1])
-drawList[1] = makeCircle(100, 50, center2[0], center2[1])
+    glClear(pyglet.gl.GL_COLOR_BUFFER_BIT)
     
-glClear(pyglet.gl.GL_COLOR_BUFFER_BIT)
+    glColor3f(1,1,0)
+    drawList[0].draw(GL_LINE_LOOP)
     
-glColor3f(1,1,0)
-drawList[0].draw(GL_LINE_LOOP)
-    
-glColor3f(0.5,0,1)
-drawList[1].draw(GL_LINE_LOOP)
+    glColor3f(0.5,0,1)
+    drawList[1].draw(GL_LINE_LOOP)
     
 #    for element in drawList:
 #        glColor3f(1,1,0)
@@ -61,7 +61,6 @@ def update(dt):
     center2[1] = window.height/2 + randint(-200,200)
     
 if __name__ == '__main__':
-    
 #    pyglet.clock.schedule(update) # cause a timed event as fast the architecture allows!
     pyglet.clock.schedule_interval(update, 1/2.0) # update at 2Hz
     pyglet.app.run()
