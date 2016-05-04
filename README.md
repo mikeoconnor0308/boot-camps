@@ -27,8 +27,8 @@ Wednesday 6th
 * 12:30 Lunch
 * 13:30 [Scipy and NumPy](Python/5_numpy.md) - Dave & Rob
 * 15:00 Break
-* 15:30 Software Design Principles - Dave & Rob
-* 16:00 Hackathon Introduction - Dave
+* 15:30 Simple Game Mechanics in Python - Dave & Rob
+* 16:00 Software Design & Hackathon Introduction - Dave, Rob, Simon
 * 17:00 Conclusion
 
 ## Hints and tips
