@@ -57,7 +57,7 @@ For example, take a look at this code from [guessgame.py](guessgame.py)
             if self.__nguesses >= 3:
                 print( "Sorry, you have run out of guesses." )
     
-            elif value == self._secret:
+            elif value == self.__secret:
                 print( "Well done - you have won the game!" )
                 return True
             else:
@@ -115,7 +115,7 @@ Lets look again at the source for GuessGame (in [guessgame.py](guessgame.py))
             if self.__nguesses >= 3:
                 print( "Sorry, you have run out of guesses." )
     
-            elif value == self._secret:
+            elif value == self.__secret:
                 print( "Well done - you have won the game!" )
                 return True
             else:
