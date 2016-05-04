@@ -48,13 +48,13 @@ For example, take a look at this code from [guessgame.py](guessgame.py)
         """A simple guess the secret game"""
         def __init__(self, secret):
             """Construct a game with the passed secret"""
-            self._secret = secret
-            self._nguesses = 0   # the number of guesses
+            self.__secret = secret
+            self.__nguesses = 0   # the number of guesses
     
         def guess(self, value):
             """See if the passed value is equal to the secret"""
     
-            if self._nguesses >= 3:
+            if self.__nguesses >= 3:
                 print( "Sorry, you have run out of guesses." )
     
             elif value == self._secret:
@@ -62,7 +62,7 @@ For example, take a look at this code from [guessgame.py](guessgame.py)
                 return True
             else:
                 print( "Wrong answer. Try again!" )
-                self._nguesses += 1  # increase the number of wrong guesses
+                self.__nguesses += 1  # increase the number of wrong guesses
                 return False
 
 This piece of Python contains lots of new ideas. Before we explore them, lets try and play the game.
@@ -106,13 +106,13 @@ Lets look again at the source for GuessGame (in [guessgame.py](guessgame.py))
         """A simple guess the secret game"""
         def __init__(self, secret):
             """Construct a game with the passed secret"""
-            self._secret = secret
-            self._nguesses = 0   # the number of guesses
+            self.__secret = secret
+            self.__nguesses = 0   # the number of guesses
     
         def guess(self, value):
             """See if the passed value is equal to the secret"""
     
-            if self._nguesses >= 3:
+            if self.__nguesses >= 3:
                 print( "Sorry, you have run out of guesses." )
     
             elif value == self._secret:
@@ -120,12 +120,12 @@ Lets look again at the source for GuessGame (in [guessgame.py](guessgame.py))
                 return True
             else:
                 print( "Wrong answer. Try again!" )
-                self._nguesses += 1  # increase the number of wrong guesses
+                self.__nguesses += 1  # increase the number of wrong guesses
                 return False
 
-Here you can see that the keyword "class" is used to define a new class (in this case, called GuessGame). Within the class you can see defined the two functions, `__init__` and "guess". The `__init__` function is special, and is called the "constructor". It must be present in all classes, and constructors are used in all object orientated programming languages. The job of the constructor is to define how to create an object of the class, i.e. how to initialise the data contained within the class. This data initialization is often called the 'instantiation' of the class: this is what programmers mean when they refer to "objects" - i.e., objects are the instantiations of a particular class definition. In this case, you can see that the constructor specifies two data members: "_secret", which will hold the secret to be guessed, and "_nguesses", which holds the number of wrong guesses made to date. Note that these data memember variables start with an underscore. This is the way you tell Python that the variables are private to the class, and cannot be modified unless modifications occur through member functions on the class. It is good programming practice to ensure that all class variable names in python are private, and start with an underscore.
+Here you can see that the keyword "class" is used to define a new class (in this case, called GuessGame). Within the class you can see defined the two functions, `__init__` and "guess". The `__init__` function is special, and is called the "constructor". It must be present in all classes, and constructors are used in all object orientated programming languages. The job of the constructor is to define how to create an object of the class, i.e. how to initialise the data contained within the class. This data initialization is often called the 'instantiation' of the class: this is what programmers mean when they refer to "objects" - i.e., objects are the instantiations of a particular class definition. In this case, you can see that the constructor specifies two data members: "__secret", which will hold the secret to be guessed, and "__nguesses", which holds the number of wrong guesses made to date. Note that these data memember variables start with two underscores. This is the way you tell Python that the variables are private to the class, and cannot be modified unless modifications occur through member functions on the class. While not strictly necessary, it is good programming practice to ensure that all class variable names in python are private, and start with two underscores.
 
-Note that the variables are defined as attached to "self", via the full stop, e.g. "self._secret". "self" is a special variable that is only available within the functions of the class, and provides access to the hidden data of the class. You can see that "self" is used by the "guess" function to check the passed guess against "self._secret", and to increase the value of "self._nguesses" if the guess is wrong.
+Note that the variables are defined as attached to "self", via the full stop, e.g. "self.__secret". "self" is a special variable that is only available within the functions of the class, and provides access to the hidden data of the class. You can see that "self" is used by the "guess" function to check the passed guess against "self.__secret", and to increase the value of "self.__nguesses" if the guess is wrong.
 
 An instantiation of a particular class is called an object. We can construct as many instances (objects) of a class as we want, and each will have its own "self" and its own set of hidden variables. For example, in what follows we have three different GuessGame objects, named game1, game2, and game3. Key to the practice of object-oriented programming is the notion of "Abstraction". One of the best definitions of abstraction I’ve ever read states: “An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of object and thus provide crisply defined conceptual boundaries, relative to the perspective of the viewer.” (G. Booch, in "Object-Oriented Design With Applications", Benjamin/Cummings, Menlo Park, California, 1991). In this case, objects are defined by their secret, the number of guesses, and functions that help keep track of whether we have won or lost the game;
 
