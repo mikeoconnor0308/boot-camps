@@ -69,7 +69,8 @@ There's a few things that you should try and do with this code:
 * Get it running in PyCharm
 
 * Figure out how to extend the code to draw more than three circles
-    hint - you can think about populating drawList, and then looping over drawList, something like:
+* 
+    here's a hint - think about populating drawList, and then looping over drawList, something like:
 ```
     for element in drawList:
         glColor3f(1,1,0)
