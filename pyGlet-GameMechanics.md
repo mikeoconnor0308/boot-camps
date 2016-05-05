@@ -2,15 +2,17 @@
 
 In this section, you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you will need to install either using MacPorts, Brew, or Anaconda.
 
-There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through.
+There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through. Don't worry about making the game suggested in the final slide of the tutorial. Work through the example below instead.
 
-Here is some code, call it pyGlet-draw.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices. The functions in the drawWindow class behave as follows:
+Here is some code, call it pyGlet-drawCircles.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices. The functions in the drawWindow class behave as follows:
 
 * \__init__(self) is responsible for initializing the important data structures required during draws & updates
 
 * on_draw() is responsible for executing the drawing instructions
  
 * update() is responsible for executing instructions required to update the positions of objects
+ 
+* when pyglet runs, it calles on_draw() and update() at the frequency specified in pyglet.clock.schedule_interval()
  
 ```
 import pyglet
@@ -84,4 +86,6 @@ There's a few things that you should try and do with this code:
 *  Split out the makeCircle() function so that it lives in a new file called 'simpleShapes.py', and figure out how to construct a module so that can run pyGlet-draw.py by simply including a line which reads "import simpleShapes" 
 
 * Change simpleShapes.py so that rather than calling the makeCircle() function, you have a circle class, which should include data (radius, center positions, and vertex lists), as well as functions (to update position). Now you should be able to modify pyGlet-draw.py to instantiate various circle objects (e.g. circle1 = circle(...)). The position of a circle (e.g., circle1) can then be updated using a command like "circle1.updatePosition()"
+ 
+* If you're really motivated, try and write a new class that draws a new shape (e.g., triangle, square, octagon, ellipse, rectangle, etc.)
 
