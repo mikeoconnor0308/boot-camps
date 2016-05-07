@@ -4,7 +4,7 @@ In this section, you will explore some simple game mechanics available in Python
 
 There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through. Don't worry about making the game suggested in the final slide of the tutorial. Work through the example below instead.
 
-Here is some code, call it pyGlet-drawCircles.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices. The functions in the drawWindow class behave as follows:
+Here is some code, call it pyGlet-drawCircles.py, that generates randomly placed circles. Note that the makeCircle function actually builds a lists of vertices, which pyGlet then "draws" by sequentially connecting lines between the vertices. The functions in the graphicsWindow class behave as follows:
 
 * \__init__(self) is responsible for initializing the important data structures required during draws & updates
 
@@ -30,9 +30,9 @@ def makeCircle(numPoints, radius, xcenter, ycenter):
     circle = pyglet.graphics.vertex_list(numPoints, ('v2f', vertices))
     return circle
 
-class drawWindow(pyglet.window.Window):
+class graphicsWindow(pyglet.window.Window):
     def __init__(self):
-        super(drawWindow, self).__init__()
+        super(graphicsWindow, self).__init__()
         self.ncircles = 2
         self.drawList = [0]*self.ncircles
         self.center1 = [self.width/2,self.height/2]
@@ -56,7 +56,7 @@ class drawWindow(pyglet.window.Window):
         print "Finished update"
 
 if __name__ == '__main__':
-    window = drawWindow()                                 # initialize a window class
+    window = graphicsWindow()                                 # initialize a window class
     pyglet.clock.schedule_interval(window.update, 1/2.0)  # tell pyglet how often it should execute on_draw() & update()
     pyglet.app.run()                                      # run pyglet
 ```
