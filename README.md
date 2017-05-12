@@ -10,7 +10,7 @@ Tuesday 16th
 
 * 10:00 Introduction and Overview - Dave
 * 10:15 [Getting Started: Simple Game Mechanics in Python](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md) - Dave
-    * [Debugging & IDEs using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
+    * [Debugging using the PyCharm IDE](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
     * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
     * [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
 * 11:30 coffee
@@ -23,14 +23,14 @@ Tuesday 16th
 Wednesday 17th
 
 * 10:00  Version Control 
-    * [Part 1: Basic git flow & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - Rob
+    * [Part 1: Basic git: structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - Rob
     * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - Rob/Mike
 * 11:00 Coffee
 * 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - Dave & Rob
 * 12:30 Lunch
 * 13:30 Hackathon Project Overviews
     * Dave Glowacki - a REALLY Quick overview of machine learning & data science
-    * Rob Arbon - machine learning data representation in Markov Models
+    * Rob Arbon - machine learning of data representation in Markov Models
     * Silvia Amabilino - machine learning potential energy surfaces
     * Mike O'Connor - machine learning body coordinates in VR
 * 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - Rob
