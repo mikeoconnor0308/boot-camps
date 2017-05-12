@@ -18,7 +18,7 @@ Tuesday 16th (DRG
 * 13:00 Lunch
 * 14:00 [Scipy and NumPy](Python/5_numpy.md)
 * 15:15 Coffee 
-* 15:30 [Experiment & Play: Use what you're learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md)
+* 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md)
 * 17:30 Finish 
 
 Wednesday 17th
