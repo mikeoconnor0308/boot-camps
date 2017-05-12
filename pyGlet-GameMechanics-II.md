@@ -1,6 +1,8 @@
 # Simple Game Mechanics in Python
 
-In this section, you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you will need to install either using MacPorts, Brew, or Anaconda.
+In this section, you have the chance to use the stuff that you've learned so far to experiment with and develop the simple game framework that we've been referring to.
+
+you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you will need to install either using MacPorts, Brew, or Anaconda.
 
 There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through. Don't worry about making the game suggested in the final slide of the tutorial. Work through the example below instead.
 
