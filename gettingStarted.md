@@ -6,20 +6,24 @@
 
 ## Hello World
 
-Let's get going with a very simple "hello world" program in python. There's a number of ways to write this very simple python program, and you should be familiar with all of them. The first way utilizes interactive python, or "ipython".
+Let's get going with a very simple "hello world" program in python. There's a number of ways to write this very simple python program, and you should be familiar with them. We'll cover three ways here. 
+
+The first way utilizes interactive python, or "ipython".
 
     $ ipython
 
 Within the ipython shell, type
 
     $ print 'hello world'
+    $ print 'hello again'
 
-when you hit 'enter', ipython should print out the specified text.
+when you hit 'enter', ipython should print out the specified text. You can exit ipython using ctrl + d.
 
-Want to see another way to get python to print out 'hello world'? exit ipython using ctrl + d, and use a text editor to make a file called "hello.py". The file contents should be
+The second way way to get python to print out 'hello world' uses standard command line python. Using a text editor, make a file called "hello.py". The file contents should be as follows:
 
 ```
 print 'hello world'
+print 'hello again'
 ```
 
 From within the same directory, type 
@@ -27,4 +31,8 @@ From within the same directory, type
     $ python hello.py
 
 when you hit 'enter', python should print out the specified text.
+
+A third way to get python to print out 'hello world' utilizes an integrated development environment called PyCharm. This is going to be our preferred way of writing python during this course. It's more complicated to set up a PyCharm project, but it's worth it for lots of reasons that will become clear as we go on. So let's get a 'hello world' PyCharm project going.
+
+
 
