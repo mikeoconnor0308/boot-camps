@@ -27,21 +27,24 @@ Wednesday 17th (REA, MOC, SA, DRG)
     * [Part 1: Basic git: structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - REA
     * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - REA/MOC
 * 11:00 Coffee
-* 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - REA & DRG
+* 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - REA/DRG
 * 12:30 Lunch
-* 13:30 Hackathon Project Overviews
-    * DRG - a REALLY Quick overview of machine learning & data science
-    * REA - machine learning of data representation in Markov Models
-    * SA  - machine learning potential energy surfaces
-    * MOC - machine learning body coordinates in VR
+* 13:30 A REALLY Quick overview of machine learning & data science (DRG)
+* 14:00 Overview of the three hackathon projects
+    * REA - Machine learning of data representation in Markov Models
+    * SA  - Machine learning potential energy surfaces
+    * MOC - Machine learning body coordinates in VR
 * 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - REA
 * 15:15 coffee
 * 16:30 guest lecture: Phil Bates (chief Cloud Computing architect @Oracle)
-* 17:30 pub
+* 17:30 Pub! Students should take this opportunity to decide on their project groups
 
 Thursday 18th (REA, MOC, SA, DRG)
 
 * 10:00 - 18:00 hackathon
+    * group 1 led by RAE - machine learning data representation in Markov Models
+    * group 2 led by SA  - machine learning potential energy surfaces
+    * group 3 led by MOC - machine learning body coordinates in VR
 * 18:00 - 19:00 pizza/wine party!
 
 Friday 19th (REA, MOC, SA, DRG)
