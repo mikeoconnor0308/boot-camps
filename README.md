@@ -1,6 +1,6 @@
 # CDT Software Course - TMCS 2016
 
-Tues 3rd - Fri 6th, May 2016.
+Tues 16th - Fri 19th, May 2017.
 
 Rob Arbon, Simon Bennie, David Glowacki
 
