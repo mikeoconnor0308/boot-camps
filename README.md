@@ -13,7 +13,7 @@ Tuesday 16th (DRG
     * [A Python Framework for Simple Game Mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md)
     * [Debugging using the PyCharm IDE](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
     * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
-    * [Principles of Object-Oriented Programming](Python/4_object_orientation.md)
+    * [Basic Principles of Object-Oriented Programming](Python/4_object_orientation.md)
 * 11:30 coffee
 * 13:00 Lunch
 * 14:00 [Scipy and NumPy](Python/5_numpy.md)
