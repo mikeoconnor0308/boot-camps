@@ -36,7 +36,7 @@ Wednesday 17th (REA, MOC, SA, DRG)
     * MOC - machine learning body coordinates in VR
 * 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - REA
 * 15:15 coffee
-* 16:30 lecture from Phil Bates (chief Cloud Computing architect @Oracle)
+* 16:30 guest lecture: Phil Bates (chief Cloud Computing architect @Oracle)
 * 17:30 pub
 
 Thursday 18th (REA, MOC, SA, DRG)
@@ -46,7 +46,7 @@ Thursday 18th (REA, MOC, SA, DRG)
 
 Friday 19th (REA, MOC, SA, DRG)
  
-* 10:00 - 11:00 lecture from Clare Macrae (developer @Cambridge Crystallographic Data Centre)
+* 10:00 - 11:00 guest lecture: Clare Macrae (developer @Cambridge Crystallographic Data Centre)
 * 11:00 - 17:00 hackathon
 
 
