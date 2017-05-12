@@ -35,7 +35,7 @@ Wednesday 17th
     * Mike O'Connor - machine learning body coordinates in VR
 * 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - Rob
 * 15:15 coffee
-* 16:30 lecture from Phil Bates (architect of Cloud Infrastructure @Oracle)
+* 16:30 lecture from Phil Bates (chief architect of Cloud Computing @Oracle)
 * 17:30 pub
 
 Thursday 18th
