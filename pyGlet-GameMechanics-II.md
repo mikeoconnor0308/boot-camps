@@ -1,6 +1,6 @@
 # Simple Game Mechanics in Python
 
-In this section, you have the chance to use the stuff that you've learned so far to experiment with and develop the simple game framework that we've been referring to.
+The point of this section is to have fun and let your creativity go where it wants! You have the chance to use the stuff that you've learned so far to experiment with and develop the simple game framework that we've been referring to.
 
 you will explore some simple game mechanics available in Python using [pyGlet](https://bitbucket.org/pyglet/pyglet/wiki/Home), which you will need to install either using MacPorts, Brew, or Anaconda.
 
