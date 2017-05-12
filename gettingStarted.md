@@ -22,8 +22,10 @@ when you hit 'enter', ipython should print out the specified text. You can exit 
 The second way way to get python to print out 'hello world' uses standard command line python. Using a text editor, make a file called "hello.py". The file contents should be as follows:
 
 ```
+
 print 'hello world'
 print 'hello again'
+
 ```
 
 From within the same directory, type 
@@ -41,10 +43,12 @@ A third way to get python to print out 'hello world' utilizes an integrated deve
 5) be sure to choose the anaconda interpreter
 6) Click Create
 7) in the project explorer, right click the 'helloTest directory', and add a new file called 'hello.py'
-8) fill 'hello.py' with 
+8) use the PyCharm text editor to fill 'hello.py' with the following:
 ```
+
 print 'hello world'
 print 'hello again'
+
 ```
 Now we will run the code from within PyCharm. To do this, right click on 'hello.py' from within the project explorer, and click 'Run hello.py' (You can also click 'Debug hello.py'). you should see that PyCharm opens a console and prints out the text.
 
