@@ -6,7 +6,7 @@
 
 ## Hello World
 
-Let's get going with a very simple "hello world" program in python. There's a number of ways of writing this very simple python program, and you should try all of them
+Let's get going with a very simple "hello world" program in python. There's a number of ways to write this very simple python program, and you should be familiar with all of them
 
     $ ipython
 
