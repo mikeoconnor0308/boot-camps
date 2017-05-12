@@ -2,22 +2,23 @@
 
 Tues 16th - Fri 19th, May 2017.
 
-Rob Arbon, Mike O'Connor, Silvia Amabilino, David Glowacki
+Rob Arbon (REA), Mike O'Connor (MOC), Silvia Amabilino (SA), David Glowacki
 
 ## Timetable
 
-Tuesday 16th
+Tuesday 16th (DRG
 
-* 10:00 Introduction and Overview - Dave
-* 10:15 [Getting Started: Simple Game Mechanics in Python](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md) - Dave
+* 10:00 Introduction and Overview
+* 10:15 Getting Started 
+    * [A Python Framework for Simple Game Mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md)
     * [Debugging using the PyCharm IDE](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
     * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
-    * [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
+    * [Principles of Object-Oriented Programming](Python/4_object_orientation.md)
 * 11:30 coffee
 * 13:00 Lunch
-* 14:00 [Scipy and NumPy](Python/5_numpy.md) - Dave
+* 14:00 [Scipy and NumPy](Python/5_numpy.md)
 * 15:15 Coffee 
-* 15:30 [Experimental Sandbox: Hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md) - Dave
+* 15:30 [Experimental Sandbox: Hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md)
 * 17:30 Finish 
 
 Wednesday 17th
@@ -45,9 +46,8 @@ Thursday 18th
 
 Friday 19th
  
-* 10:00 lecture from Clare Macrae (developer @Cambridge Crystallographic Data Centre)
-* 11:00 hackathon
-* 17:00 finish
+* 10:00 - 11:00 lecture from Clare Macrae (developer @Cambridge Crystallographic Data Centre)
+* 11:00 - 17:00 hackathon
 
 
 ## Hints and tips
