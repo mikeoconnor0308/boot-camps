@@ -6,15 +6,15 @@
 
 ## Hello World
 
-Let's get going with a very simple "hello world" program in python. There's a number of ways to write this very simple python program, and you should be familiar with all of them
+Let's get going with a very simple "hello world" program in python. There's a number of ways to write this very simple python program, and you should be familiar with all of them. The first way utilizes interactive python, or "ipython".
 
     $ ipython
 
-and then
+Within the ipython shell, type
 
     $ print 'hello world'
 
-when you hit 'enter', python should print out the specified text.
+when you hit 'enter', ipython should print out the specified text.
 
 Want to see another way to get python to print out 'hello world'? exit ipython using ctrl + d, and use a text editor to make a file called "hello.py". The file contents should be
 
@@ -22,7 +22,7 @@ Want to see another way to get python to print out 'hello world'? exit ipython u
 print 'hello world'
 ```
 
-Then do 
+From within the same directory, type 
 
     $ python hello.py
 
