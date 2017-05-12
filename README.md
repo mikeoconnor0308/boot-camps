@@ -24,7 +24,7 @@ Tuesday 16th (DRG)
 Wednesday 17th (REA, MOC, SA, DRG)
 
 * 10:00  Version Control 
-    * [Part 1: Basic git: structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - REA
+    * [Part 1: Basic git - structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - REA
     * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - REA/MOC
 * 11:00 Coffee
 * 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - REA/DRG
