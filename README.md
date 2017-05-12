@@ -33,7 +33,7 @@ Wednesday 17th (REA, MOC, SA, DRG)
 * 14:00 Overview of the three hackathon projects
     * REA - Machine learning of data representation in Markov Models
     * SA  - Machine learning potential energy surfaces
-    * MOC - Machine learning body coordinates in VR
+    * MOC - Machine learning body coordinates for interactive molecular simulation VR
 * 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - REA
 * 15:15 coffee
 * 16:30 guest lecture: Phil Bates (chief Cloud Computing architect @Oracle)
