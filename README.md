@@ -37,7 +37,7 @@ Wednesday 17th (REA, MOC, SA, DRG)
 * 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - REA
 * 15:15 coffee
 * 16:30 guest lecture: Phil Bates (chief Cloud Computing architect @Oracle)
-* 17:30 Pub. Students should take this opportunity to decide on their project groups
+* 17:30 Pub. Students should take this opportunity to organize themselves into their project groups
 
 Thursday 18th (REA, MOC, SA, DRG)
 
