@@ -46,6 +46,8 @@ A third way to get python to print out 'hello world' utilizes an integrated deve
 print 'hello world'
 print 'hello again'
 ```
+Now we will run the code from within PyCharm. To do this, right click on 'hello.py' from within the project explorer, and click 'Run hello.py' (You can also click 'Debug hello.py'). you should see that PyCharm opens a console and prints out the text.
+
 
 
 
