@@ -2,11 +2,11 @@
 
 Tues 16th - Fri 19th, May 2017.
 
-Rob Arbon (REA), Mike O'Connor (MOC), Silvia Amabilino (SA), David Glowacki
+Rob Arbon (REA), Mike O'Connor (MOC), Silvia Amabilino (SA), David Glowacki (DRG)
 
 ## Timetable
 
-Tuesday 16th (DRG
+Tuesday 16th (DRG)
 
 * 10:00 Introduction and Overview
 * 10:15 Getting Started 
@@ -21,30 +21,30 @@ Tuesday 16th (DRG
 * 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md)
 * 17:30 Finish 
 
-Wednesday 17th
+Wednesday 17th (REA, MOC, SA, DRG)
 
 * 10:00  Version Control 
-    * [Part 1: Basic git: structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - Rob
-    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - Rob/Mike
+    * [Part 1: Basic git: structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - REA
+    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - REA/MOC
 * 11:00 Coffee
-* 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - Dave & Rob
+* 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - REA & DRG
 * 12:30 Lunch
 * 13:30 Hackathon Project Overviews
-    * Dave Glowacki - a REALLY Quick overview of machine learning & data science
-    * Rob Arbon - machine learning of data representation in Markov Models
-    * Silvia Amabilino - machine learning potential energy surfaces
-    * Mike O'Connor - machine learning body coordinates in VR
-* 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - Rob
+    * DRG - a REALLY Quick overview of machine learning & data science
+    * REA - machine learning of data representation in Markov Models
+    * SA  - machine learning potential energy surfaces
+    * MOC - machine learning body coordinates in VR
+* 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - REA
 * 15:15 coffee
-* 16:30 lecture from Phil Bates (chief architect of Cloud Computing @Oracle)
+* 16:30 lecture from Phil Bates (chief Cloud Computing architect @Oracle)
 * 17:30 pub
 
-Thursday 18th
+Thursday 18th (REA, MOC, SA, DRG)
 
 * 10:00 - 18:00 hackathon
 * 18:00 - 19:00 pizza/wine party!
 
-Friday 19th
+Friday 19th (REA, MOC, SA, DRG)
  
 * 10:00 - 11:00 lecture from Clare Macrae (developer @Cambridge Crystallographic Data Centre)
 * 11:00 - 17:00 hackathon
