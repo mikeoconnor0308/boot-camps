@@ -1,4 +1,4 @@
-# CDT Software Course - TMCS 2016
+# CDT Software Course - TMCS 2017
 
 Tues 16th - Fri 19th, May 2017.
 
@@ -6,30 +6,49 @@ Rob Arbon, Mike O'Connor, Silvia Amabilino, David Glowacki
 
 ## Timetable
 
-Tuesday 5th
+Tuesday 16th
 
 * 10:00 Introduction and Overview - Dave
-* 10:30 [Version Control Part 1: Basic git](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - Rob
-* 11:30 Coffee!
-* 12:00 [Version Control Part 2: Remote repositories](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - Rob
+* 10:15 [Getting Started: Simple Game Mechanics in Python](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md) - Dave
+    * [Debugging & IDEs using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
+    * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
+    * [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
+* 11:30 coffee
 * 13:00 Lunch
-* 14:00 Python and Good programming practice - Rob
-    * [Python part 1](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
-* 15:30 Coffee!
-* 16:00 [Software Development Tools: Debugging and IDEs using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md) - Dave & Rob
-* 17:00 Conclusion 
+* 14:00 [Scipy and NumPy](Python/5_numpy.md) - Dave
+* 15:15 Coffee 
+* 15:30 [Experimental Sandbox: Hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md) - Dave
+* 17:30 Finish 
 
-Wednesday 6th
+Wednesday 17th
 
-* 09:30 [Principles of Object-Oriented Programming](Python/4_object_orientation.md) - Dave
-* 10:30 Break
-* 11:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - Dave & Rob
+* 10:00  Version Control 
+    * [Part 1: Basic git flow & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - Rob
+    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - Rob/Mike
+* 11:00 Coffee
+* 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - Dave & Rob
 * 12:30 Lunch
-* 13:30 [Scipy and NumPy](Python/5_numpy.md) - Dave & Rob
-* 15:00 Break
-* 15:30 [Simple Game Mechanics in Python](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyGlet-GameMechanics.md) - Dave & Rob
-* 16:00 Software Design & Hackathon Introduction - Dave, Rob, Simon
-* 17:00 Conclusion
+* 13:30 Hackathon Project Overviews
+    * Dave Glowacki - a REALLY Quick overview of machine learning & data science
+    * Rob Arbon - machine learning data representation in Markov Models
+    * Silvia Amabilino - machine learning potential energy surfaces
+    * Mike O'Connor - machine learning body coordinates in VR
+* 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - Rob
+* 15:15 coffee
+* 16:30 lecture from Phil Bates (architect of Cloud Infrastructure @Oracle)
+* 17:30 pub
+
+Thursday 18th
+
+* 10:00 - 18:00 hackathon
+* 18:00 - 19:00 pizza/wine party!
+
+Friday 19th
+ 
+* 10:00 lecture from Clare Macrae (developer @Cambridge Crystallographic Data Centre)
+* 11:00 hackathon
+* 17:00 finish
+
 
 ## Hints and tips
 
