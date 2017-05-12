@@ -2,7 +2,7 @@
 
 Tues 16th - Fri 19th, May 2017.
 
-Rob Arbon, Simon Bennie, David Glowacki
+Rob Arbon, Mike O'Connor, Silvia Amabilino, David Glowacki
 
 ## Timetable
 
