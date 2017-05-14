@@ -3,9 +3,9 @@
 
 ## Functions
 
-In the [last session](1_lists_and_dictionaries.md), you wrote a couple of scripts that could encode and decode messages from Morse code. The scripts are good, but are not very easy to use or reusable. For someone to make use of the scripts, they will have to edit them and copy and paste your code every time they want to encode or decode a message.
+In the [last session](1_lists_and_dictionaries.md), you wrote code to draw two triangles. The code hopefully works, but it's gotten considerably larger and harder to read. You can see that the complexity and readability of the code will suffer if we try to draw more shapes - we'll have to keep copying and pasting code every time we want to draw a new shape.
 
-Functions provide a way of packaging code into reusable and easy-to-use components. Lets imagine I have some code to add together two arrays
+Functions provide a way of packaging code into reusable, easy-to-read, and easy-to-use components. Lets imagine I have some code to add together two arrays
 
     $ a = [1, 2, 3, 4]
     $ b = [5, 6, 7, 8]
@@ -70,58 +70,53 @@ Note also that you can define your function to take as many arguments, and retur
 
 ### Exercise 2a
 
-The file [morse.py](morse.py) in your directory contains the a loop that takes strings from a user, and depending on input, will encode or decode the message from Morse. However, this script is missing the functions "encodeToMorse" and "decodeFromMorse" that are needed to make it work. 
+The file [drawTwoTriangles.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles.py) can be made considerably more readable and compact by utilizing functions. Let's look specifically at the code invoked to draw the two triangles 
 
-    import string
-    import sys
+        # now we will calculate the list of vertices required to draw the FIRST triangle
+        numberOfVertices = 3  # specify the number of vertices we need for the shape
+        radius = 20  # specify the radius of each point from the center
+        xcenter = self.center1[0]  # specify xcenter
+        ycenter = self.center1[1]  # specify ycenter
+        vertices = []  # initialize a list of vertices
 
-    letter_to_morse = {'a':'.-', 'b':'-...', 'c':'-.-.', 'd':'-..', 'e':'.', 'f':'..-.', 
-                       'g':'--.', 'h':'....', 'i':'..', 'j':'.---', 'k':'-.-', 'l':'.-..', 'm':'--', 
-                       'n':'-.', 'o':'---', 'p':'.--.', 'q':'--.-', 'r':'.-.', 's':'...', 't':'-',
-                       'u':'..-', 'v':'...-', 'w':'.--', 'x':'-..-', 'y':'-.--', 'z':'--..',
-                       '0':'-----', '1':'.----', '2':'..---', '3':'...--', '4':'....-',
-                       '5':'.....', '6':'-....', '7':'--...', '8':'---..', '9':'----.',
-                       ' ':'/' }
-    
-    morse_to_letter = {}
-    
-    for letter in letter_to_morse:
-        morse = letter_to_morse[letter]
-        morse_to_letter[morse] = letter
-    
-    
-    while True:
-        print( "Instruction (encode, decode, quit) :-> ", )
-    
-        # Read a line from standard input
-        line = sys.stdin.readline()
-        line = line.rstrip()
+        for i in range(0, numberOfVertices):
+            angle = i * (2.0 / 3.0) * pi  # specify a vertex of the triangle (x,y values)
+            x = radius * cos(angle) + xcenter
+            y = radius * sin(angle) + ycenter
+            vertices.append(x)  # append the x value to the vertex list
+            vertices.append(y)  # append the y value to the vertex list
 
-        # the first line should be either "encode", "decode"
-        # or "quit" to tell us what to do next...
-        if line == "encode":
-            # read the line to be encoded
-            message = sys.stdin.readline().rstrip()
-    
-            print( "Message is '%s'" % message )
-            print( "Encoded is '%s'" % encodeToMorse(message) )
-    
-        elif line == "decode":
-                # read the morse to be decoded
-                message = sys.stdin.readline().rstrip()   
-        
-            print( "Morse is   '%s'" % message )
-            print( "Decoded is '%s'" % decodeFromMorse(message) )
-    
-        elif line == "quit":
-            print( "Exiting...")
-            break
-    
-        else:
-            print( "Cannot understand '%s'. Instruction should be 'encode', 'decode' or 'quit'." % line )
+        # convert the vertices list to pyGlet vertices format for the first triangle
+        vertexList = pyglet.graphics.vertex_list(numberOfVertices, ('v2f', vertices))
 
+        # now use pyGlet commands to draw lines between the vertices for the first triangle
+        lineColor = 'hotpink'  # choose color
+        glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
+        vertexList.draw(GL_LINE_LOOP)  # draw
 
-In the last session you wrote two python scripts, [encode.py](1a/example/encode.py) and [decode.py](1b/example/decode.py) that encoded and decoded from python. Using the code you wrote, edit [morse.py](morse.py) and add in the missing "encodeToMorse" and "decodeFromMorse" functions.
+        # now we will calculate the list of vertices required to draw the SECOND triangle
+        numberOfVertices = 3  # specify the number of vertices we need for the shape
+        radius = 20  # specify the radius of each point from the center
+        xcenter = self.center2[0]  # specify xcenter
+        ycenter = self.center2[1]  # specify ycenter
+        vertices = []  # initialize a list of vertices
+
+        for i in range(0, numberOfVertices):
+            angle = i * (2.0 / 3.0) * pi  # specify a vertex of the triangle (x,y values)
+            x = radius * cos(angle) + xcenter
+            y = radius * sin(angle) + ycenter
+            vertices.append(x)  # append the x value to the vertex list
+            vertices.append(y)  # append the y value to the vertex list
+
+        # convert the vertices list to pyGlet vertices format for the second triangle
+        vertexList = pyglet.graphics.vertex_list(numberOfVertices, ('v2f', vertices))
+
+        # now use pyGlet commands to draw lines between the vertices for the second triangle
+        lineColor = 'blue'  # choose color
+        glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
+        vertexList.draw(GL_LINE_LOOP)  # draw
+
+Using what you've learned about functions, make a function calculateTriangleVertices() which will eliminate the redundant code in what's written above. calculateTriangleVertices() should take as input the x,y coordinates of the center, and the radius. It should return a vertexList in pyGlet format. 
 
 If you are really stuck, there is an example completed script in [2a/example/morse.py](2a/example/morse.py)
 
