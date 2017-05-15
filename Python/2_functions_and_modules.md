@@ -116,7 +116,7 @@ The file [drawTwoTriangles.py](https://github.com/davidglo/boot-camps/blob/2017-
         glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
         vertexList.draw(GL_LINE_LOOP)  # draw
 
-Using what you've learned about functions, make a function calculateTriangleVertices() which will eliminate the redundant code in what's written above. calculateTriangleVertices() should take as input the x,y coordinates of the center, and the radius. It should return a vertexList in pyGlet format. 
+Using what you've learned about functions, make a function calculateTriangleVertices() which will eliminate the redundant code in what's written above. calculateTriangleVertices() should take as input the radius, and the x,y coordinates of the center. It should return a vertexList in pyGlet format. 
 
 If you are really stuck, there is an example completed script in [drawTwoTriangles-refactor1.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor1.py)
 
