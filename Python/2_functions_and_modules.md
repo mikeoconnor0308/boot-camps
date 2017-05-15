@@ -73,16 +73,16 @@ Note also that you can define your function to take as many arguments, and retur
 The file [drawTwoTriangles.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles.py) can be made considerably more readable and compact by utilizing functions. Let's look specifically at the code invoked to draw the two triangles 
 
         # now we will calculate the list of vertices required to draw the FIRST triangle
-        numberOfVertices = 3  # specify the number of vertices we need for the shape
-        radius = 20  # specify the radius of each point from the center
-        xcenter = self.center1[0]  # specify xcenter
-        ycenter = self.center1[1]  # specify ycenter
+        numberOfVertices = 3        # specify the number of vertices we need for the shape
+        radius = 20                 # specify the radius of each point from the center
+        xcenter = self.center1[0]   # specify xcenter
+        ycenter = self.center1[1]   # specify ycenter
         vertices = []  # initialize a list of vertices
 
-        for i in range(0, numberOfVertices):
-            angle = i * (2.0 / 3.0) * pi  # specify a vertex of the triangle (x,y values)
-            x = radius * cos(angle) + xcenter
-            y = radius * sin(angle) + ycenter
+        for i in range(0,numberOfVertices):
+            angle = i*(2.0/3.0)*math.pi  # specify a vertex of the triangle (x,y values)
+            x = radius * math.cos(angle) + xcenter
+            y = radius * math.sin(angle) + ycenter
             vertices.append(x)  # append the x value to the vertex list
             vertices.append(y)  # append the y value to the vertex list
 
@@ -90,21 +90,21 @@ The file [drawTwoTriangles.py](https://github.com/davidglo/boot-camps/blob/2017-
         vertexList = pyglet.graphics.vertex_list(numberOfVertices, ('v2f', vertices))
 
         # now use pyGlet commands to draw lines between the vertices for the first triangle
-        lineColor = 'hotpink'  # choose color
-        glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
-        vertexList.draw(GL_LINE_LOOP)  # draw
+        lineColor = 'hotpink'                   # choose color
+        pyglet.gl.glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
+        vertexList.draw(pyglet.gl.GL_LINE_LOOP)           # draw
 
         # now we will calculate the list of vertices required to draw the SECOND triangle
-        numberOfVertices = 3  # specify the number of vertices we need for the shape
-        radius = 20  # specify the radius of each point from the center
-        xcenter = self.center2[0]  # specify xcenter
-        ycenter = self.center2[1]  # specify ycenter
+        numberOfVertices = 3        # specify the number of vertices we need for the shape
+        radius = 20                 # specify the radius of each point from the center
+        xcenter = self.center2[0]   # specify xcenter
+        ycenter = self.center2[1]   # specify ycenter
         vertices = []  # initialize a list of vertices
 
-        for i in range(0, numberOfVertices):
-            angle = i * (2.0 / 3.0) * pi  # specify a vertex of the triangle (x,y values)
-            x = radius * cos(angle) + xcenter
-            y = radius * sin(angle) + ycenter
+        for i in range(0,numberOfVertices):
+            angle = i*(2.0/3.0)*math.pi  # specify a vertex of the triangle (x,y values)
+            x = radius * math.cos(angle) + xcenter
+            y = radius * math.sin(angle) + ycenter
             vertices.append(x)  # append the x value to the vertex list
             vertices.append(y)  # append the y value to the vertex list
 
@@ -112,9 +112,9 @@ The file [drawTwoTriangles.py](https://github.com/davidglo/boot-camps/blob/2017-
         vertexList = pyglet.graphics.vertex_list(numberOfVertices, ('v2f', vertices))
 
         # now use pyGlet commands to draw lines between the vertices for the second triangle
-        lineColor = 'blue'  # choose color
-        glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
-        vertexList.draw(GL_LINE_LOOP)  # draw
+        lineColor = 'blue'                   # choose color
+        pyglet.gl.glColor3f(color[lineColor][0], color[lineColor][1], color[lineColor][2])  # openGL color specification
+        vertexList.draw(pyglet.gl.GL_LINE_LOOP) # draw
 
 Using what you've learned about functions, make a function calculateTriangleVertices() which will eliminate the redundant code in what's written above. calculateTriangleVertices() should take as input the radius, and the x,y coordinates of the center. It should return a vertexList in pyGlet format. 
 
