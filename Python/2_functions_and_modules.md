@@ -122,26 +122,50 @@ If you are really stuck, there is an example completed script in [drawTwoTriangl
 
 ## Modules
 
-Functions are great for organising your software into self-contained, reusable blocks of code. However, as it stands, you have to copy and paste your function into every script or program in which it is used. Modules (also called libraries) provide a way of packaging up a collection of functions into a single, reusable package. In python, creating a module is very easy. Indeed, you have already done it! The python scripts you have written are actually already python modules. You can import all of the functions defined in a script by using the "import" command.
+Functions are great for organising your software into self-contained, reusable blocks of code. However, as it stands, you'd have to copy and paste your function into every script or program in which it is used. Modules (also called libraries) provide a way of packaging up useful commmands and functions into a single, reusable package. In python, creating a module is very easy, and the ready availability of modules for just about anything you might want to do in fact account for why python is such a powerful coding framework. Indeed, the python scripts that you have been playing with already make extensive use of python modules. For example, let's have a look at how we have been carrying out mathematical operations - e.g., cosine, sine, and also getting the value of pi. Note that we have a line which reads
 
-    $ import morse
-    Instruction (encode, decode, quit) :->
+    import math
 
-The "import" command has loaded the script, importing all functions, and then running all of the code. If we type "quit" we can exit back to the prompt.
+The "import" command loads a separate python script, which is located in a file called 'math.py', importing all functions, and then running any code that does not live inside a function call. You can see this easily using the power of PyCharm: highlight "math.pi" in your editor, right-click your mouse, and then click on "Go To" -> "Declaration".
 
-Now at the prompt, I have access to all of the functions and variables contained in [morse.py](2a/example/morse.py). These functions are prefixed with the name "morse.", e.g.
+This will take you to the file where "pi" is declared. Note that it lives in a file called "math.py", where we find a few lines, which read
 
-    $ morse.[TAB]
-    morse2a.decodeFromMorse  morse2a.letter_to_morse  morse2a.morse_to_letter  morse2a.string
-    morse2a.encodeToMorse    morse2a.line             morse2a.py               morse2a.sys
-    morse2a.letter           morse2a.morse            morse2a.pyc              
+    # Variables with simple values
+    e = 2.718281828459045
 
-I can call the encode and decode functions from the prompt
+    pi = 3.141592653589793
 
-    $ morse.encodeToMorse("Hello World")
-    '.... . .-.. .-.. --- / .-- --- .-. .-.. -..'
-    $ morse.decodeFromMorse(".... . .-.. .-.. --- / .-- --- .-. .-.. -..")
-    'hello world'
+The ability to import modules that we can have access to consistent values of pi and e (or cosine, sine, etc.) at any point in any python code project that we are working on. Assuming that we've included within our code the "import math" line, then we can easily access the value of pi, or the value of e, simply by typing
+
+    math.pi
+    math.e
+
+The availabilty of math.pi and math.e means that (if we wanted to) we could have our own local variables called "pi" or "e", and these  would not be confused with math.pi or math.e. Note that modules can include both data AND functions. Sine & Cosine are good examples of functions that are included within the math module. To access consistent definition of these functions is easy, so long as we have imported the math module
+
+    math.cos(angle)
+    math.sin(angle)
+        
+If you look at little bit more carefully at the code, you will see that we have utilized a few other modules - for example
+
+    import pyglet
+    import pyglet.gl
+
+let us access functions (e.g., pyglet.gl.glClear) and data members (e.g., pyglet.gl.GL_LINE_LOOP) required to carry out simple drawings. The ability to access data and functions within these modules has saved us massive quantities of work. Note that pyglet's convention is that module data is always named using upper case letters (e.g., the GL_LINE_LOOP data member), while module functions are always named using lower case letters (e.g., the glClear() function).
+
+So by encapsulating data and functions in modules, we can make code our more general, and more readable, and more sustainable.
+
+## Exercise
+
+The code that we wrote to make colors in (drawTwoTriangles-refactor1.py)[https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor1.py] was quite useful, but it could quite quickly become annoying if we wanted to add lots of colors to the dictionary. In addition, it's easy to imagine that the color dictionary could be useful to other bits of code that we (or others) might write in the future. So we're going to focus on folding our color code into a module.
+
+To do this we are going to execute the following steps:
+    * create a new file within your PyCharm proeject called "colors.py"
+    * move the code for generating a color dictionary into colors.py
+    * change your code to utilize the colors.py module (hint: you will have to add an "import" and then use "colors." to access data on colors.py
+    * let's also add an additional function to colors.py, which is called printAvailableColors(), and which prints out all of the colors which we have defined
+    * add a call within \__init()__ to printAvailableColors, so that we get a list of available colors at initialization time
+
+
 
 While this is great, it was quite annoying that the actual code in [morse.py](2a/example/morse.py) was run when we imported the function. We can stop this from happening by using a python hidden variable. Hidden
 variables begin with one or two underscores, and we can list them all using ipython TAB
