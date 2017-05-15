@@ -118,11 +118,7 @@ The file [drawTwoTriangles.py](https://github.com/davidglo/boot-camps/blob/2017-
 
 Using what you've learned about functions, make a function calculateTriangleVertices() which will eliminate the redundant code in what's written above. calculateTriangleVertices() should take as input the x,y coordinates of the center, and the radius. It should return a vertexList in pyGlet format. 
 
-If you are really stuck, there is an example completed script in [2a/example/morse.py](2a/example/morse.py)
-
-Once you have finished, commit your changed [morse.py](morse.py) script to your Git repository.
-
-    # git commit -a
+If you are really stuck, there is an example completed script in [drawTwoTriangles-refactor1.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor1.py)
 
 ## Modules
 
