@@ -213,14 +213,15 @@ Say that (for some reason - maybe we are teaching a software course), we want th
 This might be useful in some contexts, but it also might be annoying to have it run every time colors.py is imported. For example, when we run our triangle drawing code, we will get this print-out every time, which we may not want. To avoid this, we can use a python "hidden variable". Hidden variables begin with one or two underscores. We're not going to go into detail on hidden variables here; for the moment, suffice it to say that there is a hidden variable called name called "__name__". If the function that we are in is a top level function, then its "__name__" is "__main__". To specify that certain code within our colors.py module should only run when we are running colors.py as the top level code (i.e., not importing it into something else), then we simply need to enclose the relevant bits of colors.py as follows:
     
     if __name__ == "__main__":
-        # only run this code if colors.py is run as the top-level function, not if it's imported as a module 
+        # only run this code if colors.py is run as the top-level function
+        # ignore if colors.py is imported as a module 
         print 'executing colors.py as the main routine'
         print 'we have definitions of:'
         printAvailableColors()
 
 Now if I run "colors.py" in PyCharm, I get the information printed.
 
-If I run my triangle drawing code in PyCharm, where colors.py is imported as a module, the information is not printed. Have a go and verify for yourself that this is indeed the case.
+If instead I run my triangle drawing code in PyCharm, which imports colors.py as a module, the information is not printed. Have a go at including this code in your project, and verify for yourself that this is indeed the case.
 
 It is extremely good programming practice to write all of your scripts as if they were modules (and indeed to write all of your code as if they were part of a reusable library). This makes it really easy for you to pick up and reuse all of your code, preventing you from having to continually rewrite the same functionality over and over again.
 
