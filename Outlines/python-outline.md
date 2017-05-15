@@ -16,9 +16,9 @@
 ### Plan
 
 1.  Read through the following and try the exercises. 
- * [Containers, Lists and Dictionaries](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/1_lists_and_dictionaries.md)
- * [Functions and Modules](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/2_functions_and_modules.md)
- * [Documenting Code](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Python/3_documenting_code.md)
+ * [Containers, Lists and Dictionaries](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/1_lists_and_dictionaries.md)
+ * [Functions and Modules](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/2_functions_and_modules.md)
+ * [Documenting Code](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/Python/3_documenting_code.md)
 
 #### EXTRA
 Already a python expert?  Try some [Project Euler](https://projecteuler.net/) challenges. 
