@@ -156,7 +156,17 @@ So by encapsulating data and functions in modules, we can make code our more gen
 
 ## Exercise
 
-The code that we wrote to make colors in (drawTwoTriangles-refactor1.py)[https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor1.py] was quite useful, but it could quite quickly become annoying if we wanted to add lots of colors to the dictionary. In addition, it's easy to imagine that the color dictionary could be useful to other bits of code that we (or others) might write in the future. So we're going to focus on folding our color code into a module.
+The code that we wrote to make colors in (drawTwoTriangles-refactor1.py)[https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor1.py], something like
+
+    color = {}  # declare a color dictionary
+    color['yellow'] = [1.0, 1.0, 0.0]  # fill each entry of the color dictionary with a list of three floats
+    color['blue'] = [0.0, 0.0, 1.0]
+    color['red'] = [1.0, 0.0, 0.0]
+    color['green'] = [0.0, 1.0, 0.0]
+    color['sienna'] = [0.627, 0.322, 0.176]
+    color['hotpink'] = [1.0, 0.412, 0.706]
+
+was pretty useful, but it could quite quickly become massive if we wanted to add lots of colors to the dictionary. In addition, it's easy to imagine that the color dictionary could be useful to other bits of code that we (or others) might write in the future. So we're going to focus on turning this bit of color code into a python module.
 
 To do this we are going to execute the following steps:
     * create a new file within your PyCharm proeject called "colors.py"
