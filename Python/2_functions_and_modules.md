@@ -135,7 +135,7 @@ This will take you to the file where "pi" is declared. Note that it lives in a f
 
     pi = 3.141592653589793
 
-The ability to import modules that we can have access to consistent values of pi and e (or cosine, sine, etc.) at any point in any python code project that we are working on. Assuming that we've included within our code the "import math" line, then we can easily access the value of pi, or the value of e, simply by typing
+The ability to import modules that we can have access to consistent values of pi and e (or cosine, sine, etc.) at any point in any python code project that we are working on. Assuming that we've included within our code the "import math" line, then we can easily access the value of pi, or the value of e, simply by utilizing ".", the so-called "dot-operator" as follows:
 
     math.pi
     math.e
@@ -171,7 +171,7 @@ was pretty useful, but it could quite quickly become massive if we wanted to add
 To do this we are going to execute the following steps:
 * create a new file within your PyCharm proeject called "colors.py"
 * move the code for generating a color dictionary into colors.py
-* change your code to utilize the colors.py module (hint: you will have to add an "import" and then use "colors." to access data on colors.py
+* change your code to utilize the colors.py module (hint: you will have to add an "import" and then use the dot operator to access data on colors.py
 * let's also add an additional function to colors.py, which is called printAvailableColors(), and which prints out all of the colors which we have defined
 * add a call within \__init()__ to printAvailableColors, so that we get a list of available colors at initialization time
 
