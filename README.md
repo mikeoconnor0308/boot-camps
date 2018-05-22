@@ -1,8 +1,8 @@
-# CDT Software Course - TMCS 2017
+# CDT Software Course - TMCS 2018
 
 Tues 16th - Fri 19th, May 2017.
 
-Rob Arbon (REA), Mike O'Connor (MOC), Silvia Amabilino (SA), David Glowacki (DRG)
+Lars Andersen Bratholm (LAB), Mike O'Connor (MOC), Silvia Amabilino (SA), David Glowacki (DRG)
 
 ## Timetable
 
@@ -67,7 +67,7 @@ that you can easily continue to use the same tools for the hackathon!).
 You should test your installation using our testing scripts. To access these start a shell and run the 
 commands:
 
-    git clone --branch 2016-TMCS-software --single-branch  https://github.com/mikeoconnor0308/boot-camps.git
+    git clone https://github.com/larsbratholm/boot-camps.git
     cd boot-camps/setup
 
 before following [these instructions](setup/README.md).
