@@ -6,7 +6,7 @@ Lars Andersen Bratholm (LAB), Mike O'Connor (MOC), Silvia Amabilino (SA), David 
 
 ## Timetable
 
-Tuesday 16th (DRG)
+Tuesday 29th May (DRG)
 
 * 10:00 Introduction and Overview
 * 10:15 Getting Started 
@@ -22,36 +22,40 @@ Tuesday 16th (DRG)
 * 15:30 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/pyGlet-GameMechanics-II.md)
 * 17:30 Finish 
 
-Wednesday 17th (REA, MOC, SA, DRG)
+Wednesday 30th May (LAB, MOC, SA, DRG)
 
-* 10:00  Version Control 
-    * [Part 1: Basic git - structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - REA
-    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - REA/MOC
-* 11:00 Coffee
-* 12:00 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - REA/DRG
+* 10:00 [Experiment & Play: Use what you've learned to hack-your-own game mechanics](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/pyGlet-GameMechanics-II.md)
+* 11:15 coffee
+* 11:30 Version Control 
+    * [Part 1: Basic git - structure & commands](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#git-and-version-control) - LAB
 * 12:30 Lunch
-* 13:30 A REALLY Quick overview of machine learning & data science (DRG)
-* 14:00 Overview of the three hackathon projects
-    * REA - Machine learning of data representation in Markov Models
+* 13:30 Version Control 
+    * [Part 2: Remote repos & GIT GUIs](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/git-outline.md#part-2) - LAB
+* 14:30 coffee
+* 14:45 [Testing software and catching errors](testing/README.md) ([slides](testing/Testing.ppt)) - LAB/DRG
+* 15:15 A REALLY Quick overview of machine learning & data science (DRG)
+* 15:45 coffee
+* 16:00 Overview of the three hackathon projects
+    * LAB - Machine learning of data representation in Markov Models
     * SA  - Machine learning potential energy surfaces
-    * MOC - Machine learning body coordinates for interactive molecular simulation in VR
-* 14:30 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - REA
-* 15:15 coffee
-* 16:30 guest lecture: Phil Bates (chief Cloud Computing architect @Oracle)
-* 17:30 Pub. Students should take this opportunity to organize themselves into their project groups
+    * MOC - Machine learning hand pose for interactive molecular simulation in VR
+* 16:30 coffee
+* 16:45 [The data science pipeline](https://github.com/RobertArbon/pipeline_example/blob/master/Data%20science%20pipeline.ipynb) - LAB
+* 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
-Thursday 18th (REA, MOC, SA, DRG)
+Thursday 31st May (LAB, MOC, SA, DRG)
 
 * 10:00 - 18:00 hackathon
-    * group 1 led by RAE - machine learning data representation in Markov Models
-    * group 2 led by SA  - machine learning potential energy surfaces
-    * group 3 led by MOC - machine learning body coordinates in VR
+    * group 1 led by LAB 
+    * group 2 led by SA  
+    * group 3 led by MOC 
+* 12:00 - 13:00 guest lecture: Clare Macrae (developer @Cambridge Crystallographic Data Centre)
 * 18:00 - 19:00 pizza/wine party!
 
-Friday 19th (REA, MOC, SA, DRG)
+Friday 1st Jun (LAB, MOC, SA, DRG)
  
-* 10:00 - 11:00 guest lecture: Clare Macrae (developer @Cambridge Crystallographic Data Centre)
-* 11:00 - 17:00 hackathon
+* 11:00 - 16:00 hackathon
+* 16:00 - 17:00 show and tell
 
 
 ## Hints and tips
