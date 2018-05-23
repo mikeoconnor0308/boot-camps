@@ -50,10 +50,10 @@ class graphicsWindow(pyglet.window.Window):
 
     def update(self,dt):
         #print(dt) # time elapsed since last time a draw was called
-        print "Updating the centers of the circles"
+        print("Updating the centers of the circles")
         self.center1 = [window.width/2 + randint(-200,200), window.height/2 + randint(-200,200)]
         self.center2 = [window.width/2 + randint(-200,200), window.height/2 + randint(-200,200)]
-        print "Finished update"
+        print("Finished update")
 
 if __name__ == '__main__':
     window = graphicsWindow()                                 # initialize a window class
