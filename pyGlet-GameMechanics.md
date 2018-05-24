@@ -56,13 +56,10 @@ class graphicsWindow(pyglet.window.Window):
         print("Finished update")
 
 if __name__ == '__main__':
-    window = graphicsWindow()                                 # initialize a window class
+    window = graphicsWindow()                             # initialize a window class
     pyglet.clock.schedule_interval(window.update, 1/2.0)  # tell pyglet how often it should execute on_draw() & update()
     pyglet.app.run()                                      # run pyglet
 ```
-
-
-#Tasks
 
 There's a few things that you should try and do with this code:
 
