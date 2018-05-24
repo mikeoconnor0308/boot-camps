@@ -11,8 +11,9 @@ Tuesday 29th May (DRG)
 * 10:00 Introduction and Overview
 * 10:15 Getting Started 
     * [Hello World with Python](gettingStarted.md)
+    * A quick guided introduction to getting going with the PyCharm IDE
     * [A Python Framework for Simple Game Mechanics](pyGlet-GameMechanics.md)
-    * [Debugging using the PyCharm IDE](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
+    * [A more detailed look at debugging using PyCharm](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
     * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
     * [Basic Principles of Object-Oriented Programming](Python/4_object_orientation.md)
 * 11:30 coffee
