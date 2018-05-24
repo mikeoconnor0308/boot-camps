@@ -10,7 +10,7 @@ Tuesday 29th May (DRG)
 
 * 10:00 Introduction and Overview
 * 10:15 Getting Started 
-    * [Hello World with Python](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/gettingStarted.md)
+    * [Hello World with Python](gettingStarted.md)
     * [A Python Framework for Simple Game Mechanics](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/pyGlet-GameMechanics.md)
     * [Debugging using the PyCharm IDE](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/pyCharm.md)
     * [Basic Python features](https://github.com/davidglo/boot-camps/blob/2016-TMCS-software/Outlines/python-outline.md#python-outline)
