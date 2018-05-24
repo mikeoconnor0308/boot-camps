@@ -13,7 +13,7 @@ $ conda activate py36
 $ pip install pyglet 
 ```
 3. Install the community edition of [PyCharm](https://www.jetbrains.com/pycharm/)
-4. be sure to point your PyCharm interpreter to the Anaconda py36 installation of Python. Instructions for doing that [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
+4. be sure to point your PyCharm interpreter to your local Anaconda py36 environment (mine for example lives at /anaconda/envs/py36/bin/python). More general instructions [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
 
 ## Hello World
 
