@@ -1,13 +1,15 @@
 # Getting Started with Python
 
 ## Setup
-1. Make sure you have python installed. I suggest you use [Anaconda for python 3.6](https://www.continuum.io/downloads)
-    first create a conda environment & install python 3.6: conda create -n py36 python=3.6 anaconda
-    then activate the conda environment:                   conda activate py36
+1. Make sure you have python installed. I suggest you use [Anaconda for python 3.6](https://www.continuum.io/downloads).
+    * First create a conda environment & install python 3.6.
+    $ conda create -n py36 python=3.6 anaconda
+    * Then activate the conda environment.
+    $ conda activate py36
 2. you should then [pip install pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Download)
     pip install pyglet 
 3. Install the community edition of [PyCharm](https://www.jetbrains.com/pycharm/)
-4. be sure to point your PyCharm interpreter to the Anaconda installation of Python. Instructions for doing that [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
+4. be sure to point your PyCharm interpreter to the Anaconda py36 installation of Python. Instructions for doing that [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
 
 ## Hello World
 
