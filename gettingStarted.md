@@ -4,6 +4,9 @@
 1. Make sure you have python installed. I suggest you use [Anaconda for python 3.6](https://www.continuum.io/downloads).
     * Create a conda environment & install python 3.6 using $ conda create -n py36 python=3.6 anaconda
     * Then activate the conda environment using the command $ conda activate py36
+```
+conda create -n py36 python=3.6 anaconda
+```
 2. you should then [pip install pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Download) using the command $ pip install pyglet 
 3. Install the community edition of [PyCharm](https://www.jetbrains.com/pycharm/)
 4. be sure to point your PyCharm interpreter to the Anaconda py36 installation of Python. Instructions for doing that [can be found here](https://docs.continuum.io/anaconda/ide_integration#pycharm). If you want to learn more about the Anaconda environment and package management, have a look at the [Anaconda documentation](http://conda.pydata.org/docs/using/index.html).
