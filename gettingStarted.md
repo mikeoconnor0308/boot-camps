@@ -3,8 +3,10 @@
 ## Setup
 1. Make sure you have python installed. I suggest you use [Anaconda for python 3.6](https://www.continuum.io/downloads).
     * First create a conda environment & install python 3.6.
+
     $ conda create -n py36 python=3.6 anaconda
     * Then activate the conda environment.
+
     $ conda activate py36
 2. you should then [pip install pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Download)
     pip install pyglet 
