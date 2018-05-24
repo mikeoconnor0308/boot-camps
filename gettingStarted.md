@@ -16,33 +16,33 @@ The first way utilizes interactive python, or "ipython".
 
 Within the ipython shell, type
 
-    $ print 'hello world'
-    $ print 'hello again'
+    $ print('hello world')
+    $ print('hello again')
     $ meaningOfLife = 42.0
     $ mysticalSign = 19.0
     $ keyToTheMeaningOfLife = meaningOfLife/mysticalSign
     
-    $ print '\n'
-    $ print 'keyToTheMeaningOfLife = ', keyToTheMeaningOfLife
-    $ print 'keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign
-    $ print '\n'
+    $ print('\n')
+    $ print('keyToTheMeaningOfLife = ', keyToTheMeaningOfLife)
+    $ print('keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign)
+    $ print('\n')
 
 when you hit 'enter' at the end of each line, ipython will print out the specified text. You can exit ipython using ctrl + d.
 
 The second way way to get python to print out 'hello world' uses standard command line python. Using a text editor, make a file called "hello.py". The file contents should be as follows:
 
 ```
-print 'hello world'
-print 'hello again'
+print('hello world')
+print('hello again')
 
 meaningOfLife = 42.0
 mysticalSign = 19.0
 keyToTheMeaningOfLife = meaningOfLife/mysticalSign
 
-print '\n'
-print 'keyToTheMeaningOfLife = ', keyToTheMeaningOfLife
-print 'keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign
-print '\n'
+print('\n')
+print('keyToTheMeaningOfLife = ', keyToTheMeaningOfLife)
+print('keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign)
+print('\n')
 ```
 
 From within the same directory, type 
@@ -71,17 +71,17 @@ It's a little more complicated to set up a hello world program using PyCharm, bu
 8) use the PyCharm text editor to fill 'hello.py' with the following:
 ```
 # hello world
-print 'hello world'
-print 'hello again'
+print('hello world')
+print('hello again')
 
 meaningOfLife = 42.0
 mysticalSign = 19.0
 keyToTheMeaningOfLife = meaningOfLife/mysticalSign
 
-print '\n'
-print 'keyToTheMeaningOfLife = ', keyToTheMeaningOfLife
-print 'keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign
-print '\n'
+print('\n')
+print('keyToTheMeaningOfLife = ', keyToTheMeaningOfLife)
+print('keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign)
+print('\n')
 ```
 Now we will run the code from within PyCharm. To do this, right click on 'hello.py' from within the project explorer, and click 'Run hello.py' (You can also click 'Debug hello.py'). you should see that PyCharm opens a console and prints out the text.
 
@@ -91,8 +91,8 @@ Functions provide a way of packaging code into reusable and easy-to-use componen
 ```
 def meaningOfLifeCalculator(meaning, sign):
     key = meaning/sign
-    print 'keyToTheMeaningOfLife = ', key
-    print 'keyToTheMeaningOfLife * ', sign, ' = ', key * sign
+    print('keyToTheMeaningOfLife = ', key)
+    print('keyToTheMeaningOfLife * ', sign, ' = ', key * sign)
     return key
 ```
 Now we can quickly calculate the meaning of life for any mysticalSign or any meaningOfLife, simply by calling meaningOfLifeCalculator as follows
@@ -106,28 +106,28 @@ Let's get this working in PyCharm by pasting the following code into our editor.
 ```
 def meaningOfLifeCalculator(meaning, sign):
     key = meaning/sign
-    print 'keyToTheMeaningOfLife = ', key
-    print 'keyToTheMeaningOfLife * ', sign, ' = ', key * sign
+    print('keyToTheMeaningOfLife = ', key)
+    print('keyToTheMeaningOfLife * ', sign, ' = ', key * sign)
     return key
 
-print 'hello world'
-print 'hello again'
+print('hello world')
+print('hello again')
 
 meaningOfLife = 42.0
 mysticalSign = 19.0
 keyToTheMeaningOfLife = meaningOfLife/mysticalSign
 
-print '\n'
-print 'keyToTheMeaningOfLife = ', keyToTheMeaningOfLife
-print 'keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign
-print '\n'
+print('\n')
+print('keyToTheMeaningOfLife = ', keyToTheMeaningOfLife)
+print('keyToTheMeaningOfLife * ', mysticalSign,' = ', keyToTheMeaningOfLife * mysticalSign)
+print('\n')
 
-print 'executing meaningOfLifeCalculator...'
+print('executing meaningOfLifeCalculator...')
 functionOutput = meaningOfLifeCalculator(meaningOfLife,mysticalSign)
-print 'keyToTheMeaningOfLife = ', functionOutput
-print '\n'
+print('keyToTheMeaningOfLife = ', functionOutput)
+print('\n')
 
-print 'thats all folks'
+print('thats all folks')
 ```
 
 Next we'll learn how to use PyCharm's debugging features to go examine execution flow of this simple example code.
